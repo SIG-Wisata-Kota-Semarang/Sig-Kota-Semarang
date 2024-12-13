@@ -1,0 +1,190 @@
+#map {
+    height: 450px; /* Tinggi peta */
+    width: 850px; /* Lebar peta */
+    margin: 100px auto; /* Menjadikan elemen berada di tengah secara horizontal dan menambah jarak vertikal */
+    border: 2px solid #ddd; /* Tambahkan border opsional untuk mempertegas area peta */
+    border-radius: 8px; /* Opsional, membuat sudut peta sedikit melengkung */
+    box-sizing: border-box; /* Agar padding dan border tidak menambah ukuran total */
+    transition: all 0.3s ease-in-out; /* Animasi transisi saat ukuran berubah */
+    
+}
+
+body {
+    min-height: 2000px;
+    
+}
+
+.jumbotron {
+    background: url("https://wallpaperaccess.com/full/6381546.jpg") no-repeat center center;
+    background-size: cover; /* Cover the entire jumbotron */
+    height: 100vh; /* Set height to full viewport height */
+    color: #fff;
+    display: flex; /* Use flexbox for centering content */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    padding: 0; /* Remove padding for full height */
+}
+
+#about {
+    background-color: #e2edff;
+}
+
+.img-thumbnail {
+    width: 250px;
+}
+
+.project-title {
+    display: inline-block;
+    background-color: #030c59;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+section {
+    padding-top: 10rem;
+    padding-bottom: 10rem; /* Menambah jarak di bawah setiap section */
+}
+
+/***** Footer *****/
+
+.footer-top {
+    padding: 60px 0;
+    background: #1A1A1D;
+    text-align: left;
+    color: #aaa;
+}
+
+.footer-top h3 {
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.footer-about img.logo-footer {
+    max-width: 74px;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.footer-about p a {
+    color: #aaa;
+    border-bottom: 1px dashed #666;
+}
+
+.footer-about p a:hover,
+.footer-about p a:focus {
+    color: #fff;
+    border-color: #aaa;
+}
+
+.footer-contact p {
+    word-wrap: break-word;
+}
+
+.footer-contact i {
+    padding-right: 10px;
+    font-size: 18px;
+    color: #666;
+}
+
+.footer-contact p a {
+    color: #aaa;
+    border-bottom: 1px dashed #666;
+}
+
+.footer-contact p a:hover,
+.footer-contact p a:focus {
+    color: #fff;
+    border-color: #aaa;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    color: #777;
+    border: 0;
+}
+
+.footer-social a:hover,
+.footer-social a:focus {
+    color: #aaa;
+    border: 0;
+}
+
+.footer-social i {
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.footer-bottom {
+    padding: 15px 0;
+    background: #444;
+    text-align: left;
+    color: #aaa;
+}
+
+.footer-copyright p {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.footer-copyright a {
+    color: #fff;
+    border: 0;
+}
+
+.footer-copyright a:hover,
+.footer-copyright a:focus {
+    color: #aaa;
+    border: 0;
+}
+
+/* navbar */
+.navbar {
+    padding: 0.75rem 1.25rem; /* Decrease padding */
+    background: #444;
+    backface-visibility: hidden;
+}
+
+.navbar-dark .navbar-nav {
+    font-size: 16px; /* Slightly decrease font size */
+    color: #fff;
+    font-weight: 400; /* Normal font weight */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    border: 0;
+    padding: 0.75rem 1.25rem; /* Decrease padding for nav links */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #aaa;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #aaa;
+    outline: 0;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
