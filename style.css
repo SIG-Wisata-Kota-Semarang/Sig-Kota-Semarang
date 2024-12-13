@@ -1,12 +1,60 @@
+#mapContainer {
+    position: relative;
+    width: 800px;
+    height: 450px;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+#mapContainer.expanded {
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 90vw !important;
+    height: 90vh !important;
+    z-index: 1031; /* Higher than overlay */
+}
 #map {
-    height: 450px; /* Tinggi peta */
-    width: 850px; /* Lebar peta */
-    margin: 100px auto; /* Menjadikan elemen berada di tengah secara horizontal dan menambah jarak vertikal */
-    border: 2px solid #ddd; /* Tambahkan border opsional untuk mempertegas area peta */
-    border-radius: 8px; /* Opsional, membuat sudut peta sedikit melengkung */
-    box-sizing: border-box; /* Agar padding dan border tidak menambah ukuran total */
-    transition: all 0.3s ease-in-out; /* Animasi transisi saat ukuran berubah */
-    
+    width: 100%;
+    height: 100%;
+}
+
+.fullscreen-btn {
+    background-color: white !important;
+    border: none !important;
+    padding: 10px !important;
+    cursor: pointer !important;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
+
+.fullscreen-btn:hover {
+    background-color: #f0f0f0 !important;
+}
+
+.expanded {
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 90vw !important;
+    height: 90vh !important;
+    z-index: 1000;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 1030; /* Higher than Bootstrap's navbar z-index (1020) */
+}
+
+.overlay.active {
+    display: block;
 }
 
 body {
@@ -187,4 +235,12 @@ section {
 .navbar-expand-md .navbar-nav .nav-link {
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+
+/* Profile picture adjustments */
+.img-fluid.rounded-circle {
+    width: 150px; /* Maintain the width */
+    height: 150px; /* Set height to match width for a circle */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
 }
