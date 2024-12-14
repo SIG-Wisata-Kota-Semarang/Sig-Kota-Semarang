@@ -1,0 +1,47 @@
+[
+	{
+		"id": 1,
+		"name": "Sam Poo King",
+		"category": "Museum",
+		"price": 75000,
+		"description": "A beautiful museum showcasing the history of Chinese culture.",
+		"openHours": "09:00 - 17:00",
+		"images": [
+			"img/data/sam-poo-kong/image1.jpeg",
+			"img/data/sam-poo-kong/image2.jpeg",
+			"img/data/sam-poo-kong/image3.jpeg",
+			"img/data/sam-poo-kong/image4.jpeg"
+		],
+		"address": "123 Culture Street, Jakarta, Indonesia"
+	},
+	{
+		"id": 2,
+		"name": "Lawang Sewu",
+		"category": "Historical",
+		"price": 50000,
+		"description": "A historical building known for its architecture and ghost stories.",
+		"openHours": "08:00 - 18:00",
+		"images": [
+			"img/data/sam-poo-kong/image1.jpeg",
+			"img/data/sam-poo-kong/image2.jpeg",
+			"img/data/sam-poo-kong/image3.jpeg",
+			"img/data/sam-poo-kong/image4.jpeg"
+		],
+		"address": "456 History Avenue, Semarang, Indonesia"
+	},
+	{
+		"id": 3,
+		"name": "Tugu Muda",
+		"category": "Monument",
+		"price": 0,
+		"description": "A monument commemorating the struggle for independence.",
+		"openHours": "Open 24 hours",
+		"images": [
+			"img/data/sam-poo-kong/image1.jpeg",
+			"img/data/sam-poo-kong/image2.jpeg",
+			"img/data/sam-poo-kong/image3.jpeg",
+			"img/data/sam-poo-kong/image4.jpeg"
+		],
+		"address": "789 Independence Road, Semarang, Indonesia"
+	}
+]
