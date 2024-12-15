@@ -1,47 +1,41 @@
+body {
+    background-color: #D9EAFD; /* Set the background color */
+    margin: 0; /* Remove default margin */
+    /* Optional: Set default text color for better contrast */
+}
+
+/* Adjust the Map Container */
 #mapContainer {
     position: relative;
-    width: 800px;
-    height: 450px;
-    margin: 0 auto;
+    width: 800px; /* Default width */
+    height: 450px; /* Default height */
+    margin-left: 10px; /* Add some left margin to bring it closer to the buttons */
     transition: all 0.3s ease;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
-#mapContainer.expanded {
-    position: fixed !important;
-    top: 50% !important;
-    left: 50% !important;
-    transform: translate(-50%, -50%) !important;
-    width: 90vw !important;
-    height: 90vh !important;
-    z-index: 1031; /* Higher than overlay */
+
+/* Adjust the Map Container */
+#mapContainer {
+    position: relative;
+    width: 800px; /* Default width */
+    height: 450px; /* Default height */
+    margin-left: 10px; /* Add some left margin to bring it closer to the buttons */
+    transition: all 0.3s ease;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding-top: 60px; /* Adjust this value to reduce space above the map */
 }
+
 #map {
-    width: 100%;
-    height: 100%;
+    width: 100%; /* Full width for the map */
+    height: 100%; /* Full height for the map */
+    border-radius: 8px; /* Optional: add rounded corners */
 }
 
-.fullscreen-btn {
-    background-color: white !important;
-    border: none !important;
-    padding: 10px !important;
-    cursor: pointer !important;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
-    border-radius: 4px;
-}
-
-.fullscreen-btn:hover {
-    background-color: #f0f0f0 !important;
-}
-
-.expanded {
-    position: fixed !important;
-    top: 50% !important;
-    left: 50% !important;
-    transform: translate(-50%, -50%) !important;
-    width: 90vw !important;
-    height: 90vh !important;
-    z-index: 1000;
-}
-
+/* Overlay Styles */
 .overlay {
     display: none;
     position: fixed;
@@ -49,24 +43,84 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.5);
-    z-index: 1030; /* Higher than Bootstrap's navbar z-index (1020) */
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1030; /* Higher than Bootstrap's navbar z-index */
 }
 
 .overlay.active {
     display: block;
 }
-
-body {
-    min-height: 2000px;
-    
+.row {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: flex-start; /* Align items to the left */
 }
 
+/* Optionally adjust the button list container */
+.list-group {
+    margin-right: 10px; /* Add right margin if needed */
+}
+/* Button Styles */
+.btn-custom {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 0.25rem; /* Rounded corners */
+    padding: 10px 15px; /* Adjusted padding for shorter buttons */
+    margin: 5px auto; /* Centering buttons */
+    transition: background-color 0.3s, transform 0.3s; /* Animation effects */
+    width: 250px; /* Fixed width for buttons */
+}
+
+.btn-custom:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+/* Search Box Styles */
+#searchBox {
+    width: 100%; /* Full width */
+    border-radius: 0.25rem; /* Rounded corners */
+    
+}
+/* Scrollable Button List */
+.list-group {
+    max-height: 400px; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Optional: Style for the scrollbar (for webkit browsers) */
+.list-group::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.list-group::-webkit-scrollbar-thumb {
+    background: #007bff; /* Color of the scrollbar thumb */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.list-group::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background of the scrollbar track */
+}
+
+/* Fullscreen Button */
+.fullscreen-btn {
+    background-color: white !important;
+    border: none !important;
+    padding: 10px !important;
+    cursor: pointer !important;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.fullscreen-btn:hover {
+    background-color: #f0f0f0 !important;
+}
+/* Jumbotron Styles */
 .jumbotron {
-    background: url("https://wallpaperaccess.com/full/6381546.jpg") no-repeat center center;
+    background: url("https://wallpaperaccess.com/full/6381546.jpg") no-repeat center center; /* Background image */
     background-size: cover; /* Cover the entire jumbotron */
     height: 100vh; /* Set height to full viewport height */
-    color: #fff;
+    color: #fff; /* Text color */
     display: flex; /* Use flexbox for centering content */
     flex-direction: column; /* Stack children vertically */
     justify-content: center; /* Center content vertically */
@@ -74,173 +128,178 @@ body {
     padding: 0; /* Remove padding for full height */
 }
 
-#about {
-    background-color: #e2edff;
-}
 
+/* Thumbnail Images */
 .img-thumbnail {
-    width: 250px;
+    width: 250px; /* Fixed width for thumbnails */
 }
 
+/* Project Title Styles */
 .project-title {
     display: inline-block;
-    background-color: #030c59;
-    color: white;
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
+    background-color: #030c59; /* Dark background */
+    color: white; /* Text color */
+    padding: 8px 16px; /* Padding */
+    border-radius: 20px; /* Rounded corners */
+    font-size: 20px; /* Font size */
+    font-weight: bold; /* Font weight */
+    text-transform: uppercase; /* Uppercase text */
 }
 
+/* Social Links Styles */
 .social-link {
-    width: 30px;
-    height: 30px;
-    border: 1px solid #ddd;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #666;
-    border-radius: 50%;
-    transition: all 0.3s;
-    font-size: 0.9rem;
+    width: 30px; /* Fixed size for social icons */
+    height: 30px; /* Fixed size for social icons */
+    border: 1px solid #ddd; /* Border around icons */
+    display: flex; /* Flexbox for centering */
+    align-items: center; /* Centering */
+    justify-content: center; /* Centering */
+    color: #666; /* Icon color */
+    border-radius: 50%; /* Circular icons */
+    transition: all 0.3s; /* Transition effects */
+    font-size: 0.9rem; /* Font size */
 }
 
+/* Section Padding */
 section {
-    padding-top: 10rem;
-    padding-bottom: 10rem; /* Menambah jarak di bawah setiap section */
+    padding-top: 5rem; /* Reduced top padding */
+    padding-bottom: 5rem; /* Reduced bottom padding */
 }
 
-/***** Footer *****/
-
+/***** Footer Styles *****/
 .footer-top {
-    padding: 60px 0;
-    background: #1A1A1D;
-    text-align: left;
-    color: #aaa;
+    padding: 60px 0; /* Top and bottom padding */
+    background: #800000; /* Dark background */
+    text-align: left; /* Left alignment */
+    color: #aaa; /* Light text color */
 }
 
 .footer-top h3 {
-    padding-bottom: 10px;
-    color: #fff;
+    padding-bottom: 10px; /* Bottom padding for title */
+    color: #fff; /* White text */
 }
 
+/* Footer Logo */
 .footer-about img.logo-footer {
-    max-width: 74px;
-    margin-top: 0;
-    margin-bottom: 18px;
+    max-width: 74px; /* Max width for logo */
+    margin-top: 0; /* No top margin */
+    margin-bottom: 18px; /* Bottom margin */
 }
 
+/* Footer Links */
 .footer-about p a {
-    color: #aaa;
-    border-bottom: 1px dashed #666;
+    color: #aaa; /* Link color */
+    border-bottom: 1px dashed #666; /* Dashed underline */
 }
 
 .footer-about p a:hover,
 .footer-about p a:focus {
-    color: #fff;
-    border-color: #aaa;
+    color: #fff; /* Hover color */
+    border-color: #aaa; /* Hover border color */
 }
 
+/* Footer Contact */
 .footer-contact p {
-    word-wrap: break-word;
+    word-wrap: break-word; /* Break long words */
 }
 
 .footer-contact i {
-    padding-right: 10px;
-    font-size: 18px;
-    color: #666;
+    padding-right: 10px; /* Right padding for icons */
+    font-size: 18px; /* Icon size */
+    color: #666; /* Icon color */
 }
 
 .footer-contact p a {
-    color: #aaa;
-    border-bottom: 1px dashed #666;
+    color: #aaa; /* Link color */
+    border-bottom: 1px dashed #666; /* Dashed underline */
 }
 
 .footer-contact p a:hover,
 .footer-contact p a:focus {
-    color: #fff;
-    border-color: #aaa;
+    color: #fff; /* Hover color */
+    border-color: #aaa; /* Hover border color */
 }
 
+/* Footer Social Links */
 .footer-social a {
-    display: inline-block;
-    margin-right: 20px;
-    margin-bottom: 8px;
-    color: #777;
-    border: 0;
+    display: inline-block; /* Inline-block display */
+    margin-right: 20px; /* Right margin */
+    margin-bottom: 8px; /* Bottom margin */
+    color: #777; /* Link color */
+    border: 0; /* No border */
 }
 
 .footer-social a:hover,
 .footer-social a:focus {
-    color: #aaa;
-    border: 0;
+    color: #aaa; /* Hover color */
+    border: 0; /* No border */
 }
 
 .footer-social i {
-    font-size: 24px;
-    vertical-align: middle;
+    font-size: 24px; /* Icon size */
+    vertical-align: middle; /* Vertically align */
 }
 
+/* Footer Bottom */
 .footer-bottom {
-    padding: 15px 0;
-    background: #444;
-    text-align: left;
-    color: #aaa;
+    padding: 15px 0; /* Top and bottom padding */
+    background: #444; /* Dark background */
+    text-align: left; /* Left alignment */
+    color: #aaa; /* Light text color */
 }
 
 .footer-copyright p {
-    margin: 0;
-    padding: 0.5rem 0;
+    margin: 0; /* No margin */
+    padding: 0.5rem 0; /* Vertical padding */
 }
 
 .footer-copyright a {
-    color: #fff;
-    border: 0;
+    color: #fff; /* Link color */
+    border: 0; /* No border */
 }
 
 .footer-copyright a:hover,
 .footer-copyright a:focus {
-    color: #aaa;
-    border: 0;
+    color: #aaa; /* Hover color */
+    border: 0; /* No border */
 }
 
-/* navbar */
+/* Navbar Styles */
 .navbar {
     padding: 0.75rem 1.25rem; /* Decrease padding */
-    background: #444;
-    backface-visibility: hidden;
+    background: #444; /* Dark background */
+    backface-visibility: hidden; /* Hidden */
 }
 
 .navbar-dark .navbar-nav {
     font-size: 16px; /* Slightly decrease font size */
-    color: #fff;
+    color: #fff; /* Text color */
     font-weight: 400; /* Normal font weight */
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
-    border: 0;
-    padding: 0.75rem 1.25rem; /* Decrease padding for nav links */
+    color: #fff; /* Link color */
+    border: 0; /* No border */
+    padding: 0.75rem 1.25rem; /* Decrease padding */
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #aaa;
+    color: #aaa; /* Hover color */
 }
 
 .navbar-dark .navbar-nav .nav-link:focus {
-    color: #aaa;
-    outline: 0;
+    color: #aaa; /* Focus color */
+    outline: 0; /* No outline */
 }
+
 .navbar-expand-md .navbar-nav .nav-link {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1rem; /* Left padding */
+    padding-right: 1rem; /* Right padding */
 }
 
-
-/* Profile picture adjustments */
+/* Profile Picture Adjustments */
 .img-fluid.rounded-circle {
-    width: 150px; /* Maintain the width */
+    width: 150px; /* Maintain width */
     height: 150px; /* Set height to match width for a circle */
-    object-fit: cover; /* Ensure the image covers the area without distortion */
+    object-fit: cover; /* Ensure image covers area without distortion */
 }
