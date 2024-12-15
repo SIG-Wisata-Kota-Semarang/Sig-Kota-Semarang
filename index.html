@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #1A1A1D">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #800000">
         <div class="container">
           <a class="navbar-brand" href="#home">
             <img src="img/logosmg.png" alt="NYOBA SIG" height="30" />
@@ -24,10 +24,13 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#maps">Map Wisata</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="table.html">List Wisata</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">About</a>
@@ -35,27 +38,85 @@
             </ul>
           </div>
         </div>
-      </nav>
-      <!-- Akhir Navbar -->
+    </nav>
+    <!-- Akhir Navbar -->
+    
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
         <h1 class="display-4">Sistem Informasi Geografis</h1>
         <p class="lead">Wisata Kota Semarang</p>
-      </section>
-      <!-- Akhir Jumbotron -->
-
-    <!-- Awal Map -->
-    <section>
-        <div id="overlay" class="overlay"></div>
-        <div id="mapContainer">
-            <div id="map"></div>
-        </div>
-        </div>
+        
     </section>
+    <!-- Akhir jumbotron -->
 
-    <!-- Akhir Map -->
+<!-- Awal Description -->
+<section class="container mt-5">
+  <div class="row align-items-center">
+      <div class="col-md-6">
+          <img src="img/wilayah.png" alt="Kota Semarang" class="img-fluid rounded shadow-sm">
+      </div>
+      <div class="col-md-6">
+          <h2>Tentang Kota Semarang</h2>
+          <p>
+              Semarang adalah ibu kota Provinsi Jawa Tengah, Indonesia. Kota ini dikenal dengan sejarahnya yang kaya, arsitektur kolonial, dan budaya yang beragam. 
+              Dikenal juga sebagai kota lumpia, Semarang menawarkan berbagai destinasi wisata, mulai dari bangunan bersejarah hingga kuliner yang lezat.
+          </p>
+          <p>
+              Beberapa tempat menarik di Semarang termasuk Lawang Sewu, Kota Lama, dan Masjid Agung Jawa Tengah. Kota ini juga memiliki pelabuhan yang
+              sibuk dan merupakan pusat perdagangan penting di pulau Jawa.
+          </p>
+      </div>
+  </div>
+</section>
+<!-- End Description -->
 
-         <!-- About Us -->
+<!-- Awal Map -->
+<section id="maps" class="container mt-5">
+  <div class="card">
+      <div class="card-body">
+          <div class="row">
+              <div class="col-md-4">
+                  <h3>Tempat Wisata di Semarang</h3>
+                  <!-- Search Box -->
+                  <div class="mb-3">
+                      <input type="text" class="form-control" id="searchBox" placeholder="Cari tempat wisata...">
+                  </div>
+                  <div class="list-group">
+                      <button type="button" class="list-group-item list-group-item-action btn-custom btn-short">Lawang Sewu</button>
+                      <button type="button" class="list-group-item list-group-item-action btn-custom btn-short">Sam Poo Kong</button>
+                      <button type="button" class="list-group-item list-group-item-action btn-custom btn-short">Kota Lama</button>
+                      <button type="button" class="list-group-item list-group-item-action btn-custom btn-short">Simpang Lima</button>
+                      <button type="button" class="list-group-item list-group-item-action btn-custom btn-short">Masjid Agung Jawa Tengah</button>
+                      <button type="button" class="list-group-item list-group-item-action btn-custom btn-short">Pantai Marina</button>
+                      <button type="button" class="list-group-item list-group-item-action btn-custom btn-short">Pantai Tirang</button>
+                      <button type="button" class="list-group-item list-group-item-action btn-custom btn-short">Semawis</button>
+                      <button type="button" class="list-group-item list-group-item-action btn-custom btn-short">Taman Indonesia Kaya</button>
+                      <button type="button" class="list-group-item list-group-item-action btn-custom btn-short">Grand Maerakaca</button>
+                      <button type="button" class="list-group-item list-group-item-action btn-custom btn-short">Firdaus Fatimah Zahra</button>
+                      <button type="button" class="list-group-item list-group-item-action btn-custom btn-short">Nirwana Stable</button>
+                      <button type="button" class="list-group-item list-group-item-action btn-custom btn-short">Gubug Serut</button>
+                      <button type="button" class="list-group-item list-group-item-action btn-custom btn-short">Waduk Jatibarang</button>
+                      <button type="button" class="list-group-item list-group-item-action btn-custom btn-short">Ngrembel Asri</button>
+                      <button type="button" class="list-group-item list-group-item-action btn-custom btn-short">Goa Kreo</button>
+                      <button type="button" class="list-group-item list-group-item-action btn-custom btn-short">Thematic Kampung Jawi</button>
+                      <button type="button" class="list-group-item list-group-item-action btn-custom btn-short">Dusun Semilir (Kabupaten)</button>
+                      <button type="button" class="list-group-item list-group-item-action btn-custom btn-short">Umbul Sidomukti (Kabupaten)</button>
+                      <button type="button" class="list-group-item list-group-item-action btn-custom btn-short">Curug Benowo dan Lawe (Kabupaten)</button>
+                  </div>
+              </div>
+              <div class="col-md-8">
+                <div id="overlay" class="overlay"></div>
+                <div id="mapContainer">
+                    <div id="map"></div>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Akhir Map -->
+
+    <!-- About Us -->
     <section id="about">
         <div class="container">
           <div class="row text-center mb-3">
@@ -86,9 +147,9 @@
                       <a href="https://www.linkedin.com/" class="social-link"><i class="fa fa-linkedin"></i></a>
                     </li>
                   </ul>
-                </div>
-              </div>
-              <!-- End-->
+            </div>
+        </div>
+    <!-- End-->
   
               <!-- Anggota Team 2-->
               <div class="col-xl-4 col-sm-6 mb-5">
@@ -190,11 +251,13 @@
         </div>
       </section>
       <!-- Akhir About Us -->
+
     <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
     integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
     crossorigin=""></script>
     <script type="text/javascript" src="script.js"></script>
 </body>
+
  <!-- Footer -->
  <footer>
     <div class="footer-top">
