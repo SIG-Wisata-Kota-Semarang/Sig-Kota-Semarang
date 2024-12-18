@@ -5,7 +5,7 @@ const mainMap = L.map('main-map').setView([-6.9826, 110.4145], 12);
 function setTileLayerBasedOnTheme() {
     const body = document.querySelector('body');
     const lightTileLayer = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-    const darkTileLayer = 'https://tiles.stadiamaps.com/tiles/alidade_satellite/{z}/{x}/{y}{r}.png';
+    const darkTileLayer = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
 
     // Remove the existing tile layer
     mainMap.eachLayer((layer) => {
