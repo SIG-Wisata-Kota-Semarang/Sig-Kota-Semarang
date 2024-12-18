@@ -75,6 +75,8 @@ section {
 	width: auto;
 	height: auto;
 	object-fit: contain;
+	margin-top: 12px;
+	margin-inline-end: 12px;
 }
 body {
 	margin: 0;
