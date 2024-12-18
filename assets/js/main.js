@@ -13,47 +13,53 @@
    * Apply .scrolled class to the body as the page is scrolled down
    */
   
-  // Fungsi untuk mendeteksi dan mengatur tema berdasarkan preferensi pengguna atau tema yang dipilih
-  function setTheme() {
-    const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    const body = document.querySelector('body');
-    const themeToggleCheckbox = document.getElementById('theme-toggle');
-    const modeText = document.getElementById('mode-text');
+// Fungsi untuk mendeteksi dan mengatur tema berdasarkan preferensi pengguna atau tema yang dipilih
+function setTheme() {
+  const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  const body = document.querySelector('body');
+  const themeToggleCheckbox = document.getElementById('theme-toggle');
+  const modeText = document.getElementById('mode-text');
 
-    // Menggunakan preferensi tema dari pengguna atau tema yang disimpan di localStorage
-    if (localStorage.getItem('theme') === 'dark' || darkModeMediaQuery.matches) {
+  // Menggunakan preferensi tema dari pengguna atau tema yang disimpan di localStorage
+  if (localStorage.getItem('theme') === 'dark' || darkModeMediaQuery.matches) {
       body.classList.add('dark-mode');
       body.classList.remove('light-mode');
       themeToggleCheckbox.checked = true;
       modeText.textContent = 'Dark Mode';
-    } else {
+  } else {
       body.classList.add('light-mode');
       body.classList.remove('dark-mode');
       themeToggleCheckbox.checked = false;
       modeText.textContent = 'Light Mode';
-    }
   }
 
-  // Fungsi untuk toggle antara dark mode dan light mode
-  function toggleTheme() {
-    const body = document.querySelector('body');
-    const themeToggleCheckbox = document.getElementById('theme-toggle');
-    const modeText = document.getElementById('mode-text');
+  // Update map tile layer based on theme
+  setTileLayerBasedOnTheme();
+}
 
-    if (themeToggleCheckbox.checked) {
+// Fungsi untuk toggle antara dark mode dan light mode
+function toggleTheme() {
+  const body = document.querySelector('body');
+  const themeToggleCheckbox = document.getElementById('theme-toggle');
+  const modeText = document.getElementById('mode-text');
+
+  if (themeToggleCheckbox.checked) {
       // Ubah ke dark mode
       body.classList.add('dark-mode');
       body.classList.remove('light-mode');
       localStorage.setItem('theme', 'dark');
       modeText.textContent = 'Dark Mode';
-    } else {
+  } else {
       // Ubah ke light mode
       body.classList.add('light-mode');
       body.classList.remove('dark-mode');
       localStorage.setItem('theme', 'light');
       modeText.textContent = 'Light Mode';
-    }
   }
+
+  // Update map tile layer based on theme change
+  setTileLayerBasedOnTheme();
+}
   
 
   // Set theme saat halaman dimuat berdasarkan preferensi atau pengaturan sebelumnya

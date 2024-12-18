@@ -1,8 +1,32 @@
 // Inisialisasi Map Utama
 const mainMap = L.map('main-map').setView([-6.9826, 110.4145], 12);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-}).addTo(mainMap);
 
+// Function to switch tile layer based on theme
+function setTileLayerBasedOnTheme() {
+    const body = document.querySelector('body');
+    const lightTileLayer = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    const darkTileLayer = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
+
+    // Remove the existing tile layer
+    mainMap.eachLayer((layer) => {
+        if (layer instanceof L.TileLayer) {
+            mainMap.removeLayer(layer);
+        }
+    });
+
+    // Add the correct tile layer based on the current theme
+    if (body.classList.contains('dark-mode')) {
+        L.tileLayer(darkTileLayer).addTo(mainMap);
+    } else {
+        L.tileLayer(lightTileLayer).addTo(mainMap);
+    }
+}
+
+// Initial tile layer setting based on theme
+setTileLayerBasedOnTheme();
+
+// Update tile layer when the theme changes
+document.getElementById('theme-toggle').addEventListener('change', setTileLayerBasedOnTheme);
 // Objek untuk menyimpan marker berdasarkan ID atau nama
 const markerMap = {};
 
@@ -49,7 +73,28 @@ function flyToLocation(coords, name) {
         markerMap[name].openPopup(); // Membuka popup marker setelah map berpindah
     }, 1000); // Delay untuk memastikan peta sudah berpindah posisi
 }
+// Tambahkan GeoJSON untuk Semarang Boundary
+fetch('assets/js/semarang_boundary.geojson')
+    .then(response => response.json())
+    .then(data => {
+        // Filter hanya untuk fitur yang bukan titik
+        const filteredFeatures = data.features.filter(feature => feature.geometry.type !== 'Point');
 
+        const semarangBoundary = L.geoJSON({
+            type: 'FeatureCollection',
+            features: filteredFeatures
+        }, {
+            style: {
+                color: 'blue',
+                weight: 2,
+                opacity: 0.8,
+                fillOpacity: 0.1
+            }
+        }).addTo(mainMap);
+
+        mainMap.fitBounds(semarangBoundary.getBounds());
+    })
+    .catch(error => console.error('Error loading GeoJSON:', error));
 // Ambil Data dari JSON
 fetch('assets/js/mapdb.json')
     .then(response => response.json())
