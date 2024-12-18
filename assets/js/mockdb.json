@@ -1,0 +1,317 @@
+[
+	{
+		"id": 1,
+		"name": "Sam Poo Kong",
+		"category": "Museum",
+		"price": 15000,
+		"description": "A beautiful museum showcasing the history of Chinese culture.",
+		"openHours": "08:00 - 20:00",
+		"images": [
+			"img/data/sam-poo-kong/image1.jpeg",
+			"img/data/sam-poo-kong/image2.jpeg",
+			"img/data/sam-poo-kong/image3.jpeg",
+			"img/data/sam-poo-kong/image4.jpeg"
+		],
+		"address": "Sam Poo Kong, Bongsari, Semarang Barat, Semarang City, Central Java 50148"
+	},
+	{
+		"id": 2,
+		"name": "Lawang Sewu",
+		"category": "Historical",
+		"price": 20000,
+		"description": "A historical building known for its architecture and ghost stories.",
+		"openHours": "08:00 - 20:00",
+		"images": [
+			"img/data/lawang-sewu/image1.jpeg",
+			"img/data/lawang-sewu/image2.jpeg",
+			"img/data/lawang-sewu/image3.jpeg",
+			"img/data/lawang-sewu/image4.jpeg"
+		],
+		"address": "Jl. Pemuda No. 160, Semarang City, Central Java"
+	},
+	{
+		"id": 3,
+		"name": "Tugu Muda",
+		"category": "Monument",
+		"price": 0,
+		"description": "A monument commemorating the struggle for independence.",
+		"openHours": "Open 24 hours",
+		"images": [
+			"img/data/sam-poo-kong/image1.jpeg",
+			"img/data/sam-poo-kong/image2.jpeg",
+			"img/data/sam-poo-kong/image3.jpeg",
+			"img/data/sam-poo-kong/image4.jpeg"
+		],
+		"address": "Jl. Pandanaran, Mugassari, Semarang City, Central Java 50245"
+	},
+	{
+		"id": 4,
+		"name": "Kota Lama",
+		"category": "Heritage District",
+		"price": 0,
+		"description": "Kota Lama is a historic area featuring colonial-style architecture, often referred to as 'Little Netherlands'",
+		"openHours": "Open 24 hours",
+		"images": [
+			"img/data/kota-lama/image1.jpeg",
+			"img/data/kota-lama/image2.jpeg",
+			"img/data/kota-lama/image3.jpeg",
+			"img/data/kota-lama/image4.jpeg"
+		],
+		"address": "Jalan Cendrawasih No. 1A, Purwodinatan, Semarang City, Central Java"
+	},
+	{
+		"id": 5,
+		"name": "Simpang Lima",
+		"category": "City Square",
+		"price": 0,
+		"description": "A bustling city center surrounded by shopping malls, hotels, and a variety of local street food.",
+		"openHours": "Open 24 hours",
+		"images": [
+			"img/data/simpang-lima/image1.jpeg",
+			"img/data/simpang-lima/image2.jpeg",
+			"img/data/simpang-lima/image3.jpeg",
+			"img/data/simpang-lima/image4.jpeg"
+		],
+		"address": "Simpang Lima, Semarang City, Central Java"
+	},
+	{
+		"id": 6,
+		"name": "Masjid Agung Jawa Tengah (Great Mosque of Central Java)",
+		"category": "Religious",
+		"price": 0,
+		"description": " A grand mosque with modern architecture and a tower offering panoramic views of Semarang.",
+		"openHours": "Open 24 hours",
+		"images": [
+			"img/data/masjid-agung/image1.jpeg",
+			"img/data/masjid-agung/image2.jpeg",
+			"img/data/masjid-agung/image3.jpeg",
+			"img/data/masjid-agung/image4.jpeg"
+		],
+		"address": "Jl. Gajah Raya, Semarang City, Central Java"
+	},
+	{
+		"id": 7,
+		"name": "Marina Beach",
+		"category": "Beach",
+		"price": 10000,
+		"description": "A beautiful beach with recreational facilities such as boating and jogging tracks.",
+		"openHours": "06:00 - 18:00",
+		"images": [
+			"img/data/marina/image1.jpeg",
+			"img/data/marina/image2.jpeg",
+			"img/data/marina/image3.jpeg",
+			"img/data/marina/image4.jpeg"
+		],
+		"address": "Marina Beach, Tawangsari, Semarang City, Central Java"
+	},
+	{
+		"id": 8,
+		"name": "Tirang Beach",
+		"category": "Beach",
+		"price": 10000,
+		"description": " A serene beach with a natural ambiance, ideal for fishing and relaxing.",
+		"openHours": "06:00 - 18:00",
+		"images": [
+			"img/data/tirang/image1.jpeg",
+			"img/data/tirang/image2.jpeg",
+			"img/data/tirang/image3.jpeg",
+			"img/data/tirang/image4.jpeg"
+		],
+		"address": "Tirang Beach, Tugurejo, Semarang City, Central Java"
+	},
+	{
+		"id": 9,
+		"name": "Semawis (Night Market)",
+		"category": "Culinary",
+		"price": 0,
+		"description": " A weekend night market featuring local food and souvenirs.",
+		"openHours": "17:00 - 23:00 (weekends only)",
+		"images": [
+			"img/data/semawis/image1.jpeg",
+			"img/data/semawis/image2.jpeg",
+			"img/data/semawis/image3.jpeg",
+			"img/data/semawis/image4.jpeg"
+		],
+		"address": "Gang Warung No.50, Kauman, Semarang City, Central Java 50245"
+	},
+	{
+		"id": 10,
+		"name": "Taman Indonesia Kaya",
+		"category": "Cultural Park",
+		"price": 0,
+		"description": "A modern park with a cultural stage, perfect for family entertainment.",
+		"openHours": "06:00 - 21:00",
+		"images": [
+			"img/data/tik/image1.jpeg",
+			"img/data/tik/image2.jpeg",
+			"img/data/tik/image3.jpeg",
+			"img/data/tik/image4.jpeg"
+		],
+		"address": "Jl Menteri Supeno, Semarang City, Central Java 50245"
+	},
+	{
+		"id": 11,
+		"name": "Grand Maerakaca",
+		"category": "Miniature Park",
+		"price": 25000,
+		"description": "A miniature park showcasing traditional houses and local culture from Central Java.",
+		"openHours": "08:00 - 17:00",
+		"images": [
+			"img/data/maerakaca/image1.jpeg",
+			"img/data/maerakaca/image2.jpeg",
+			"img/data/maerakaca/image3.jpeg",
+			"img/data/maerakaca/image4.jpeg"
+		],
+		"address": "PRPP, Semarang City, Central Java 50245"
+	},
+	{
+		"id": 12,
+		"name": "Firdaus Fatimah Zahra",
+		"category": "Religious",
+		"price": 0,
+		"description": "A religious destination with Islamic architecture and scenic views.",
+		"openHours": "08:00 - 17:00",
+		"images": [
+			"img/data/fatimah/image1.jpeg",
+			"img/data/fatimah/image2.jpeg",
+			"img/data/fatimah/image3.jpeg",
+			"img/data/fatimah/image4.jpeg"
+		],
+		"address": "Jl. Muntal Mangunsari, Gunung Pati, Semarang City, Central Java"
+	},
+	{
+		"id": 13,
+		"name": "Nirwana Stable",
+		"category": "Horse Riding",
+		"price": 30000,
+		"description": "A recreation spot to learn horseback riding and enjoy rural landscapes.",
+		"openHours": "08:00 - 17:00",
+		"images": [
+			"img/data/nirwana/image1.jpeg",
+			"img/data/nirwana/image2.jpeg",
+			"img/data/nirwana/image3.jpeg",
+			"img/data/nirwana/image4.jpeg"
+		],
+		"address": "Purwosari, Mijen, Semarang City, Central Java"
+	},
+	{
+		"id": 14,
+		"name": "Gubug Serut",
+		"category": "Nature",
+		"price": 0,
+		"description": "A natural tourist spot featuring green scenery and riverside views.",
+		"openHours": "06.00 - 18.00",
+		"images": [
+			"img/data/gubug-serut/image1.jpeg",
+			"img/data/gubug-serut/image2.jpeg",
+			"img/data/gubug-serut/image3.jpeg",
+			"img/data/gubug-serut/image4.jpeg"
+		],
+		"address": "Jl. Persen Raya, Sekaran, Gunung Pati, Semarang City, Central Java 50245"
+	},
+	{
+		"id": 15,
+		"name": "Waduk Jatibarang (Jatibarang Reservoir)",
+		"category": "Reservoir",
+		"price": 15000,
+		"description": "A multifunctional reservoir offering recreational facilities like boat rides.",
+		"openHours": "07:00 - 17:00",
+		"images": [
+			"img/data/jatibarang/image1.jpeg",
+			"img/data/jatibarang/image2.jpeg",
+			"img/data/jatibarang/image3.jpeg",
+			"img/data/jatibarang/image4.jpeg"
+		],
+		"address": "Gunungpati, Semarang City, Central Java"
+	},
+	{
+		"id": 16,
+		"name": "Ngrembel Asri",
+		"category": "Outbound Activities",
+		"price": 25000,
+		"description": "A family-friendly destination with outbound activities, playgrounds, and local cuisine.",
+		"openHours": "08:00 - 17:00",
+		"images": [
+			"img/data/ngrembel/image1.jpeg",
+			"img/data/ngrembel/image2.jpeg",
+			"img/data/ngrembel/image3.jpeg",
+			"img/data/ngrembel/image4.jpeg"
+		],
+		"address": "Jalan Raya Manyaran-Gunungpati, Semarang City, Central Java 50245"
+	},
+	{
+		"id": 17,
+		"name": "Goa Kreo ((Kreo Cave)",
+		"category": "Nature",
+		"price": 15000,
+		"description": " A natural cave with legends of guardian monkeys, located near Jatibarang Reservoir.",
+		"openHours": "07:00 - 17:00",
+		"images": [
+			"img/data/kreo/image1.jpeg",
+			"img/data/kreo/image2.jpeg",
+			"img/data/kreo/image3.jpeg",
+			"img/data/kreo/image4.jpeg"
+		],
+		"address": "Jl Raya Goa Kreo, Kandri, Gunung Pati, Semarang City, Central Java 50245"
+	},
+	{
+		"id": 18,
+		"name": "Thematic Kampung Jawi",
+		"category": "Cultural Village",
+		"price": 0,
+		"description": "A thematic village showcasing traditional Javanese culture and art.",
+		"openHours": "08:00 - 17:00",
+		"images": [
+			"img/data/kampung-jawi/image1.jpeg",
+			"img/data/kampung-jawi/image2.jpeg",
+			"img/data/kampung-jawi/image3.jpeg",
+			"img/data/kampung-jawi/image4.jpeg"
+		],
+		"address": "Jangli, Semarang City, Central Java 50245"
+	},
+	{
+		"id": 19,
+		"name": "Dusun Semilir",
+		"category": "Recreation",
+		"price": 25000,
+		"description": " A modern eco-park-themed destination with various attractions and activities.",
+		"openHours": "08:00 - 20:00",
+		"images": [
+			"img/data/dusun-semilir/image1.jpeg",
+			"img/data/dusun-semilir/image2.jpeg",
+			"img/data/dusun-semilir/image3.jpeg",
+			"img/data/dusun-semilir/image4.jpeg"
+		],
+		"address": "Jangli, Semarang City, Central Java"
+	},
+	{
+		"id": 20,
+		"name": "Umbul Sidomukti",
+		"category": "Nature",
+		"price": 20000,
+		"description": "A natural swimming pool with a cool mountain ambiance.",
+		"openHours": "08:00 - 17:00",
+		"images": [
+			"img/data/umbul-sidomukti/image1.jpeg",
+			"img/data/umbul-sidomukti/image2.jpeg",
+			"img/data/umbul-sidomukti/image3.jpeg",
+			"img/data/umbul-sidomukti/image4.jpeg"
+		],
+		"address": "Bandungan, Semarang Regency, Indonesia"
+	},
+	{
+		"id": 21,
+		"name": "Benowo and Lawe Waterfalls",
+		"category": "Waterfall",
+		"price": 10000,
+		"description": "Twin waterfalls located in a lush forest, perfect for trekking and photography.",
+		"openHours": "07:00 - 17:00",
+		"images": [
+			"img/data/curug-/image1.jpeg",
+			"img/data/curug-/image2.jpeg",
+			"img/data/curug-/image3.jpeg",
+			"img/data/curug-/image4.jpeg"
+		],
+		"address": "West Ungaran, Semarang City, Central Java 50245"
+	}
+]
