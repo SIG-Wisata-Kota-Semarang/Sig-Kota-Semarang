@@ -1,70 +1,55 @@
 [
 	{
 		"id": 1,
-		"name": "Sam Poo Kong",
-		"category": "Museum",
-		"price": 15000,
-		"description": "A beautiful museum showcasing the history of Chinese culture.",
-		"openHours": "08:00 - 20:00",
-		"images": [
-			"img/data/sam-poo-kong/image1.jpeg",
-			"img/data/sam-poo-kong/image2.jpeg",
-			"img/data/sam-poo-kong/image3.jpeg",
-			"img/data/sam-poo-kong/image4.jpeg"
-		],
-		"address": "Sam Poo Kong, Bongsari, Semarang Barat, Semarang City, Central Java 50148"
-	},
-	{
-		"id": 2,
 		"name": "Lawang Sewu",
-		"category": "Historical",
-		"price": 20000,
-		"description": "A historical building known for its architecture and ghost stories.",
-		"openHours": "08:00 - 20:00",
+		"category": "Sejarah",
+		"price": "Rp10.000 – Dewasa, Rp5.000 - Anak",
+		"description": "Museum Lawang Sewu, yang berarti 'seribu pintu', merupakan bekas bangunan kantor pusat Nederlandsch-Indische Spoorweg Maatschappij (NIS) yang bersejarah. Kini, bangunan megah ini dialihfungsikan menjadi museum dan galeri sejarah perkeretaapian di bawah naungan KAI Wisata. Dengan arsitektur yang menawan dan nilai sejarah yang mendalam, pengunjung dapat menjelajahi ruang-ruang yang dulunya digunakan untuk aktivitas perkeretaapian, menikmati pameran, dan belajar tentang sejarah transportasi di Indonesia.",
+		"openHours": "08:00 - 20:00 WIB",
 		"images": [
 			"img/data/lawang-sewu/image1.jpeg",
 			"img/data/lawang-sewu/image2.jpeg",
 			"img/data/lawang-sewu/image3.jpeg",
 			"img/data/lawang-sewu/image4.jpeg"
 		],
-		"address": "Jl. Pemuda No. 160, Semarang City, Central Java"
+		"address": "Jl. Pemuda No.160, Sekayu, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50132"
 	},
 	{
-		"id": 3,
-		"name": "Tugu Muda",
-		"category": "Monument",
-		"price": 0,
-		"description": "A monument commemorating the struggle for independence.",
-		"openHours": "Open 24 hours",
+		"id": 2,
+		"name": "Sam Poo Kong",
+		"category": "Agama",
+		"price": "Rp20.000 – Dewasa, Rp15.000 – Anak",
+		"description": "Kelenteng Sam Poo Kong adalah tempat ibadah agama Buddha yang diyakini sebagai bekas tempat persinggahan dan pendaratan pertama Laksamana Zheng He, atau Cheng Ho. Dikenal juga dengan nama Gedung Batu, kelenteng ini memiliki bentuk gua batu besar yang terletak di atas bukit. Masyarakat keturunan Tionghoa di Indonesia membangun kelenteng ini sebagai bentuk penghormatan kepada Cheng Ho. Selain berfungsi sebagai tempat peribadatan, Sam Poo Kong juga sering dijadikan lokasi untuk berbagai acara budaya dan ziarah, menawarkan pengalaman spiritual yang mendalam bagi pengunjung.",
+		"openHours": "08:00 - 20:00 WIB",
 		"images": [
 			"img/data/sam-poo-kong/image1.jpeg",
 			"img/data/sam-poo-kong/image2.jpeg",
 			"img/data/sam-poo-kong/image3.jpeg",
 			"img/data/sam-poo-kong/image4.jpeg"
 		],
-		"address": "Jl. Pandanaran, Mugassari, Semarang City, Central Java 50245"
+		"address": "Sam Poo Kong, Bongsari, Semarang Barat, Kota Semarang, Java Tengah 50148"
 	},
 	{
-		"id": 4,
+		"id": 3,
 		"name": "Kota Lama",
-		"category": "Heritage District",
-		"price": 0,
-		"description": "Kota Lama is a historic area featuring colonial-style architecture, often referred to as 'Little Netherlands'",
-		"openHours": "Open 24 hours",
+		"category": "Sejarah",
+		"price": "Gratis",
+		"description": "Kota Lama adalah sebuah kawasan bersejarah di Semarang yang pernah menjadi pusat perdagangan pada abad ke-19 dan ke-20. Dikenal juga sebagai 'Little Netherland', Kota Lama memiliki kanal-kanal air yang dulunya mengalir di sekitar kawasan ini, meskipun kini banyak yang tidak terawat. Dengan arsitektur bergaya kolonial Belanda, tempat ini menawarkan suasana yang unik dan menarik bagi pengunjung yang ingin merasakan sejarah dan budaya Semarang. Berjalan-jalan di sekitar Kota Lama akan membawa Anda seolah kembali ke masa lalu.",
+		"openHours": "24 hours",
 		"images": [
 			"img/data/kota-lama/image1.jpeg",
 			"img/data/kota-lama/image2.jpeg",
 			"img/data/kota-lama/image3.jpeg",
 			"img/data/kota-lama/image4.jpeg"
 		],
-		"address": "Jalan Cendrawasih No. 1A, Purwodinatan, Semarang City, Central Java"
+		"address": "2C5C+VRJ, Jl. Simpang Lima, Mugassari, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50249"
 	},
 	{
-		"id": 5,
+		"id": 4,
 		"name": "Simpang Lima",
-		"category": "City Square",
-		"price": 0,
-		"description": "A bustling city center surrounded by shopping malls, hotels, and a variety of local street food.",
+		"category": "Rekreasi",
+		"price": "Gratis",
+		"description": "Simpang Lima adalah persimpangan strategis yang terletak di pusat kota Semarang. Tempat ini merupakan pertemuan dari lima jalan besar yang menyatu, termasuk Jalan Pahlawan, Jalan Pandanaran, Jalan Ahmad Yani, Jalan Gajah Mada, dan Jalan Ahmad Dahlan. Di tengah persimpangan terdapat Lapangan Pancasila, yang sering digunakan untuk berbagai acara publik dan perayaan. Simpang Lima menjadi ikon kota dan tempat berkumpulnya masyarakat, menawarkan suasana yang ramai dan beragam aktivitas.",
 		"openHours": "Open 24 hours",
 		"images": [
 			"img/data/simpang-lima/image1.jpeg",
@@ -75,243 +60,243 @@
 		"address": "Simpang Lima, Semarang City, Central Java"
 	},
 	{
-		"id": 6,
+		"id": 5,
 		"name": "Masjid Agung Jawa Tengah (Great Mosque of Central Java)",
-		"category": "Religious",
-		"price": 0,
-		"description": " A grand mosque with modern architecture and a tower offering panoramic views of Semarang.",
-		"openHours": "Open 24 hours",
+		"description": "Masjid Agung Jawa Tengah adalah masjid terbesar dan termegah yang menjadi ikon provinsi Jawa Tengah. Dengan desain arsitektur yang modern dan tradisional, masjid ini memiliki enam payung hidrolik raksasa yang terinspirasi dari Masjid Nabawi di Arab Saudi. Masjid ini bukan hanya tempat ibadah, tetapi juga pusat kegiatan sosial dan budaya, sering menjadi lokasi acara besar dan perayaan keagamaan. Pengunjung dapat menikmati keindahan arsitektur dan suasana damai yang ada di dalamnya.",
+		"category": "Agama",
+		"price": "Gratis",
+		"address": "Jl. Gajah Raya, Sambirejo, Kec. Gayamsari, Kota Semarang, Jawa Tengah 50166",
+		"openHours": "24 hours",
 		"images": [
 			"img/data/masjid-agung/image1.jpeg",
 			"img/data/masjid-agung/image2.jpeg",
 			"img/data/masjid-agung/image3.jpeg",
 			"img/data/masjid-agung/image4.jpeg"
-		],
-		"address": "Jl. Gajah Raya, Semarang City, Central Java"
+		]
 	},
 	{
-		"id": 7,
-		"name": "Marina Beach",
-		"category": "Beach",
-		"price": 10000,
-		"description": "A beautiful beach with recreational facilities such as boating and jogging tracks.",
-		"openHours": "06:00 - 18:00",
+		"id": 6,
+		"name": "Pantai Marina",
+		"description": "Pantai Marina adalah salah satu objek wisata pantai yang terletak di Kota Semarang. Dahulu, lokasi ini merupakan hutan bakau dan tambak, namun pemerintah setempat mengubahnya menjadi tempat rekreasi melalui reklamasi daratan. Kini, Pantai Marina dilengkapi dengan berbagai fasilitas untuk berlibur, seperti spot foto dan area bermain. Pengunjung dapat menikmati keindahan laut, bersantai di tepi pantai, atau menjelajahi area sekitarnya yang kini dipenuhi dengan perumahan dan pertokoan.",
+		"category": "Alam",
+		"price": "Rp10.000",
+		"address": "29WP+4FC, Tawangsari, Semarang City, Central Java 50144",
+		"openHours": "06:00 - 18:00 WIB",
 		"images": [
 			"img/data/marina/image1.jpeg",
 			"img/data/marina/image2.jpeg",
 			"img/data/marina/image3.jpeg",
 			"img/data/marina/image4.jpeg"
-		],
-		"address": "Marina Beach, Tawangsari, Semarang City, Central Java"
+		]
 	},
 	{
-		"id": 8,
-		"name": "Tirang Beach",
-		"category": "Beach",
-		"price": 10000,
-		"description": " A serene beach with a natural ambiance, ideal for fishing and relaxing.",
-		"openHours": "06:00 - 18:00",
+		"id": 7,
+		"name": "Pantai Tirang",
+		"description": "Pantai Tirang adalah destinasi wisata yang terletak di bagian barat Kota Semarang. Dulunya, lokasi ini merupakan pulau kecil bernama Pulau Tirang yang memiliki keindahan flora dan fauna. Namun, fenomena abrasi yang hebat mengakibatkan pulau ini menghilang, meninggalkan garis pantai yang kini dikenal sebagai Pantai Tirang. Pantai ini menawarkan keindahan alam yang menakjubkan dan merupakan tempat yang sempurna untuk bersantai dan menikmati suasana pantai.",
+		"category": "Alam",
+		"price": "Rp5.000",
+		"address": "Tugurejo, Tugu, Semarang City, Central Java 50182",
+		"openHours": "24 Jam",
 		"images": [
 			"img/data/tirang/image1.jpeg",
 			"img/data/tirang/image2.jpeg",
 			"img/data/tirang/image3.jpeg",
 			"img/data/tirang/image4.jpeg"
-		],
-		"address": "Tirang Beach, Tugurejo, Semarang City, Central Java"
+		]
 	},
 	{
-		"id": 9,
-		"name": "Semawis (Night Market)",
-		"category": "Culinary",
-		"price": 0,
-		"description": " A weekend night market featuring local food and souvenirs.",
-		"openHours": "17:00 - 23:00 (weekends only)",
+		"id": 8,
+		"name": "Semawis",
+		"description": "Pasar Semawis adalah pasar malam yang terkenal dengan berbagai jenis makanan dan minuman khas Semarang. Hanya buka setiap akhir pekan, pasar ini terletak di kawasan pecinan Kota Semarang, tepatnya di sepanjang jalan Gang Warung. Di sini, pengunjung dapat menemukan berbagai kuliner lokal yang lezat dan unik, serta oleh-oleh khas Semarang. Suasana pasar yang ramai dan meriah membuatnya menjadi tempat yang sempurna untuk menikmati kuliner sambil bersosialisasi.",
+		"category": "Kuliner",
+		"price": "Gratis",
+		"address": "Jl. Kranggan Dalam Jl. Gg. Warung No.50, Kauman, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50139",
+		"openHours": "06.00 – 22.00 WIB",
 		"images": [
 			"img/data/semawis/image1.jpeg",
 			"img/data/semawis/image2.jpeg",
 			"img/data/semawis/image3.jpeg",
 			"img/data/semawis/image4.jpeg"
-		],
-		"address": "Gang Warung No.50, Kauman, Semarang City, Central Java 50245"
+		]
 	},
 	{
-		"id": 10,
+		"id": 9,
 		"name": "Taman Indonesia Kaya",
-		"category": "Cultural Park",
-		"price": 0,
-		"description": "A modern park with a cultural stage, perfect for family entertainment.",
-		"openHours": "06:00 - 21:00",
+		"description": "Taman Indonesia Kaya adalah ruang terbuka publik di Semarang yang dirancang untuk menjadi panggung budaya dan seni pertunjukan. Taman ini diharapkan dapat mengakomodasi kreasi para seniman panggung teater dan penggemar seni. Dengan berbagai acara dan pertunjukan yang diadakan, taman ini menjadi tempat berkumpul yang populer bagi masyarakat. Suasana taman yang asri dan nyaman membuatnya ideal untuk bersantai sambil menikmati pertunjukan seni.",
+		"category": "Rekreasi",
+		"price": "Gratis",
+		"address": "Jl. Menteri Supeno No.11 A, Mugassari, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50249",
+		"openHours": "24 Jam",
 		"images": [
 			"img/data/tik/image1.jpeg",
 			"img/data/tik/image2.jpeg",
 			"img/data/tik/image3.jpeg",
 			"img/data/tik/image4.jpeg"
-		],
-		"address": "Jl Menteri Supeno, Semarang City, Central Java 50245"
+		]
 	},
 	{
-		"id": 11,
+		"id": 10,
 		"name": "Grand Maerakaca",
-		"category": "Miniature Park",
-		"price": 25000,
-		"description": "A miniature park showcasing traditional houses and local culture from Central Java.",
-		"openHours": "08:00 - 17:00",
+		"description": "Grand Maerakaca adalah taman yang menawarkan berbagai wahana edukasi yang menarik. Dikenal juga sebagai Puri Maerokoco, taman ini sering dijuluki sebagai Taman Mini Jawa Tengah Indah. Di sini, pengunjung dapat belajar tentang teknologi dan cara berkebun, serta menjelajahi rumah adat dari 35 kabupaten/kota di Jawa Tengah. Taman ini merupakan tempat yang ideal untuk keluarga yang ingin belajar sambil bermain dan menikmati keindahan alam.",
+		"category": "Edukasi",
+		"price": "Rp20.000",
+		"address": "Jl. Puri Anjasmoro, Tawangsari, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50114",
+		"openHours": "07:00 - 18:00 WIB",
 		"images": [
 			"img/data/maerakaca/image1.jpeg",
 			"img/data/maerakaca/image2.jpeg",
 			"img/data/maerakaca/image3.jpeg",
 			"img/data/maerakaca/image4.jpeg"
-		],
-		"address": "PRPP, Semarang City, Central Java 50245"
+		]
 	},
 	{
-		"id": 12,
+		"id": 11,
 		"name": "Firdaus Fatimah Zahra",
-		"category": "Religious",
-		"price": 0,
-		"description": "A religious destination with Islamic architecture and scenic views.",
-		"openHours": "08:00 - 17:00",
+		"description": "Firdaus Fatimah Zahra adalah tempat manasik haji yang termegah di Jawa Tengah, dengan luas sekitar 3 hektar. Lokasi ini dilengkapi dengan berbagai fasilitas, termasuk pintu gerbang utama, gedung pertemuan, serta replika Kabah dan Masjidil Haram. Tempat ini dirancang untuk memberikan pengalaman manasik haji yang mendalam dan nyata, serta menjadi pusat pendidikan dan informasi bagi para calon jemaah haji. Keindahan arsitektur dan suasana yang tenang membuatnya menjadi tempat yang istimewa.",
+		"category": "Agama",
+		"price": "Rp40.000",
+		"address": "Jl. Muntal, Mangunsari, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50227",
+		"openHours": "08.00 – 16.00 WIB",
 		"images": [
 			"img/data/fatimah/image1.jpeg",
 			"img/data/fatimah/image2.jpeg",
 			"img/data/fatimah/image3.jpeg",
 			"img/data/fatimah/image4.jpeg"
-		],
-		"address": "Jl. Muntal Mangunsari, Gunung Pati, Semarang City, Central Java"
+		]
 	},
 	{
-		"id": 13,
+		"id": 12,
 		"name": "Nirwana Stable",
-		"category": "Horse Riding",
-		"price": 30000,
-		"description": "A recreation spot to learn horseback riding and enjoy rural landscapes.",
-		"openHours": "08:00 - 17:00",
+		"description": "Nirwana Stable adalah objek wisata yang menawarkan pengalaman berkuda sambil menikmati keindahan alam yang menakjubkan. Di tempat ini, pengunjung dapat belajar tentang kuda dan unggas, serta berinteraksi langsung dengan hewan-hewan tersebut. Dengan suasana yang asri dan menenangkan, Nirwana Stable menjadi pilihan tepat bagi keluarga dan pengunjung yang ingin menikmati aktivitas luar ruangan sambil belajar tentang berkuda.",
+		"category": "Alam",
+		"price": "Rp10.000",
+		"address": "Purwosari, Mijen, Semarang City, Central Java 50217",
+		"openHours": "10.00 – 17.30 WIB (hari kerja), 08.00 – 19.30 WIB (akhir pekan)",
 		"images": [
 			"img/data/nirwana/image1.jpeg",
 			"img/data/nirwana/image2.jpeg",
 			"img/data/nirwana/image3.jpeg",
 			"img/data/nirwana/image4.jpeg"
-		],
-		"address": "Purwosari, Mijen, Semarang City, Central Java"
+		]
 	},
 	{
-		"id": 14,
+		"id": 13,
 		"name": "Gubug Serut",
-		"category": "Nature",
-		"price": 0,
-		"description": "A natural tourist spot featuring green scenery and riverside views.",
-		"openHours": "06.00 - 18.00",
+		"description": "Gubug Serut menawarkan berbagai atraksi wisata air yang menyenangkan, seperti body rafting, river tubing, dan berenang. Selain aktivitas air, tempat ini juga memiliki banyak spot selfie dengan tema alam yang Instagrammable, menjadikannya tempat yang populer di kalangan pengunjung yang gemar berfoto. Dengan suasana yang sejuk dan dikelilingi pepohonan, Gubug Serut adalah tempat yang ideal untuk bersantai sambil menikmati keindahan alam.",
+		"category": "Rekreasi",
+		"price": "Gratis",
+		"address": "Jl. Persen Raya, Sekaran, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50229",
+		"openHours": "06.00 – 18.00 WIB",
 		"images": [
 			"img/data/gubug-serut/image1.jpeg",
 			"img/data/gubug-serut/image2.jpeg",
 			"img/data/gubug-serut/image3.jpeg",
 			"img/data/gubug-serut/image4.jpeg"
-		],
-		"address": "Jl. Persen Raya, Sekaran, Gunung Pati, Semarang City, Central Java 50245"
+		]
 	},
 	{
-		"id": 15,
-		"name": "Waduk Jatibarang (Jatibarang Reservoir)",
-		"category": "Reservoir",
-		"price": 15000,
-		"description": "A multifunctional reservoir offering recreational facilities like boat rides.",
-		"openHours": "07:00 - 17:00",
+		"id": 14,
+		"name": "Waduk Jatibarang",
+		"description": "Waduk Jatibarang memiliki daya tampung 20,4 juta meter kubik dan berfungsi tidak hanya untuk mengatasi masalah banjir, tetapi juga sebagai salah satu destinasi wisata di Semarang. Di tengah waduk ini terdapat pulau kecil yang menyimpan Goa Kreo, sebuah objek wisata menarik lainnya. Selain itu, Waduk Jatibarang juga berfungsi sebagai Pembangkit Listrik Mikro Hidro (PLTMH) berkapasitas 1,5 kW, menjadikannya tempat yang multifungsi dan menarik untuk dikunjungi.",
+		"category": "Alam",
+		"price": "Gratis",
+		"address": "X972+G6P, Jl. Jamalsari Tim. 1, Kedungpane, Kec. Mijen, Kota Semarang, Jawa Tengah 50211",
+		"openHours": "24 Jam",
 		"images": [
 			"img/data/jatibarang/image1.jpeg",
 			"img/data/jatibarang/image2.jpeg",
 			"img/data/jatibarang/image3.jpeg",
 			"img/data/jatibarang/image4.jpeg"
-		],
-		"address": "Gunungpati, Semarang City, Central Java"
+		]
 	},
 	{
-		"id": 16,
+		"id": 15,
 		"name": "Ngrembel Asri",
-		"category": "Outbound Activities",
-		"price": 25000,
-		"description": "A family-friendly destination with outbound activities, playgrounds, and local cuisine.",
-		"openHours": "08:00 - 17:00",
+		"description": "Ngrembel Asri adalah objek wisata yang sangat direkomendasikan untuk liburan keluarga. Di sini, pengunjung dapat menikmati suasana rindang sambil menjajal berbagai wahana permainan yang telah disediakan oleh pengelola. Dengan fasilitas yang lengkap dan suasana yang ramah, Ngrembel Asri menawarkan pengalaman rekreasi yang menyenangkan bagi semua kalangan usia.",
+		"category": "Rekreasi",
+		"price": "Hari kerja Rp4.000, akhir pekan Rp7.000",
+		"address": "Jl. Raya Manyaran-Gunungpati No.KM 10, Gunungpati, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50229",
+		"openHours": "08.30 – 22.00 WIB",
 		"images": [
 			"img/data/ngrembel/image1.jpeg",
 			"img/data/ngrembel/image2.jpeg",
 			"img/data/ngrembel/image3.jpeg",
 			"img/data/ngrembel/image4.jpeg"
-		],
-		"address": "Jalan Raya Manyaran-Gunungpati, Semarang City, Central Java 50245"
+		]
 	},
 	{
-		"id": 17,
+		"id": 16,
 		"name": "Goa Kreo ((Kreo Cave)",
-		"category": "Nature",
-		"price": 15000,
-		"description": " A natural cave with legends of guardian monkeys, located near Jatibarang Reservoir.",
-		"openHours": "07:00 - 17:00",
+		"description": "Goa Kreo adalah goa utama yang memiliki nilai sejarah dan legenda menarik, terkait dengan kisah Sunan Kalijaga. Goa ini menjadi daya tarik utama bagi pengunjung yang ingin menjelajahi keindahan alam di dalam goa. Salah satu pengalaman unik di Goa Kreo adalah interaksi langsung dengan sekumpulan monyet yang hidup di sekitar area goa. Keberadaan monyet ini menambah daya tarik tersendiri bagi para pengunjung dan membuat pengalaman di sini semakin berkesan.",
+		"category": "Alam",
+		"price": "Rp8.000",
+		"address": "Jl. Raya Goa Kreo, Kandri, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50222",
+		"openHours": "08.00 – 17.00 WIB",
 		"images": [
 			"img/data/kreo/image1.jpeg",
 			"img/data/kreo/image2.jpeg",
 			"img/data/kreo/image3.jpeg",
 			"img/data/kreo/image4.jpeg"
-		],
-		"address": "Jl Raya Goa Kreo, Kandri, Gunung Pati, Semarang City, Central Java 50245"
+		]
 	},
 	{
-		"id": 18,
-		"name": "Thematic Kampung Jawi",
-		"category": "Cultural Village",
-		"price": 0,
-		"description": "A thematic village showcasing traditional Javanese culture and art.",
-		"openHours": "08:00 - 17:00",
-		"images": [
-			"img/data/kampung-jawi/image1.jpeg",
-			"img/data/kampung-jawi/image2.jpeg",
-			"img/data/kampung-jawi/image3.jpeg",
-			"img/data/kampung-jawi/image4.jpeg"
-		],
-		"address": "Jangli, Semarang City, Central Java 50245"
-	},
-	{
-		"id": 19,
+		"id": 17,
 		"name": "Dusun Semilir",
-		"category": "Recreation",
-		"price": 25000,
-		"description": " A modern eco-park-themed destination with various attractions and activities.",
-		"openHours": "08:00 - 20:00",
+		"description": "Dusun Semilir adalah destinasi wisata budaya dan ekologi yang menyajikan berbagai pengalaman budaya lokal. Di sini, pengunjung dapat menikmati suasana pedesaan yang tenang sambil belajar tentang budaya dan tradisi masyarakat setempat. Tempat ini juga menawarkan berbagai aktivitas menarik yang berkaitan dengan alam dan budaya, menjadikannya pilihan yang ideal untuk wisata edukasi.",
+		"category": "Budaya",
+		"price": "IDR 20,000",
+		"address": "Jl. Soekarno - Hatta No.49, Ngemple, Bawen, Ngemplak, Kabupaten Semarang",
+		"openHours": "Open daily 9 AM - 5 PM",
 		"images": [
 			"img/data/dusun-semilir/image1.jpeg",
 			"img/data/dusun-semilir/image2.jpeg",
 			"img/data/dusun-semilir/image3.jpeg",
 			"img/data/dusun-semilir/image4.jpeg"
-		],
-		"address": "Jangli, Semarang City, Central Java"
+		]
 	},
 	{
-		"id": 20,
+		"id": 18,
 		"name": "Umbul Sidomukti",
-		"category": "Nature",
-		"price": 20000,
-		"description": "A natural swimming pool with a cool mountain ambiance.",
-		"openHours": "08:00 - 17:00",
+		"description": "Umbul Sidomukti adalah area pemandian alami dan tempat rekreasi yang dikelilingi oleh pemandangan alam yang menakjubkan. Tempat ini sangat cocok untuk keluarga dan pengunjung yang mencari ketenangan dan kesegaran. Selain pemandian, Umbul Sidomukti juga menyediakan berbagai kegiatan luar ruangan seperti trekking dan menikmati panorama alam yang indah, menjadikannya tempat yang sempurna untuk berlibur dan bersantai di alam terbuka.",
+		"category": "Alam",
+		"price": "IDR 15,000",
+		"address": "Umbul Sidomukti, Manggung, Jimbaran, Bandungan, Kabupaten Semarang",
+		"openHours": "Open daily 7 AM - 6 PM",
 		"images": [
 			"img/data/umbul-sidomukti/image1.jpeg",
 			"img/data/umbul-sidomukti/image2.jpeg",
 			"img/data/umbul-sidomukti/image3.jpeg",
 			"img/data/umbul-sidomukti/image4.jpeg"
-		],
-		"address": "Bandungan, Semarang Regency, Indonesia"
+		]
 	},
 	{
-		"id": 21,
+		"id": 19,
 		"name": "Benowo and Lawe Waterfalls",
-		"category": "Waterfall",
-		"price": 10000,
-		"description": "Twin waterfalls located in a lush forest, perfect for trekking and photography.",
-		"openHours": "07:00 - 17:00",
+		"description": "Curug Benowo dan Lawe adalah dua air terjun yang menakjubkan, terletak di alam yang masih asri dan alami. Destinasi ini sangat cocok bagi penggemar alam dan petualangan, menawarkan suasana yang tenang dan pemandangan yang spektakuler. Pengunjung dapat menikmati keindahan alam sambil melakukan trekking menuju air terjun, serta merasakan kesegaran air yang jernih. Air terjun ini menjadi tempat yang ideal untuk berfoto dan bersantai di tengah alam.",
+		"category": "Alam",
+		"price": "Rp.5000",
+		"address": "RT.01/RW.06, Hutan, Kalisidi, Ungaran Barat, Semarang Regency",
+		"openHours": "Open daily 8 AM - 5 PM",
 		"images": [
 			"img/data/curug-/image1.jpeg",
 			"img/data/curug-/image2.jpeg",
 			"img/data/curug-/image3.jpeg",
 			"img/data/curug-/image4.jpeg"
-		],
-		"address": "West Ungaran, Semarang City, Central Java 50245"
+		]
+	},
+	{
+		"id": 20,
+		"name": "Thematic Kampung Jawi",
+		"description": "Wisata Kampung Jawi adalah destinasi yang menawarkan pengalaman budaya dan kuliner tradisional. Terletak di pinggir kali, tempat ini menghadirkan suasana yang nyaman dan alami, memungkinkan pengunjung menikmati berbagai macam kuliner khas. Dengan inovasi angkringan dan hidangan lokal lainnya, Kampung Jawi menjadi tempat yang ideal untuk bersantai sambil menikmati makanan lezat dan merasakan atmosfer kebudayaan lokal yang kental.",
+		"category": "Kuliner",
+		"price": "Gratis",
+		"address": "Jl. Kalialang Lama, RT.02/RW.01, Sukorejo, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50221",
+		"openHours": "04.00 – 22.00 WIB",
+		"images": [
+			"img/data/kampung-jawi/image1.jpeg",
+			"img/data/kampung-jawi/image2.jpeg",
+			"img/data/kampung-jawi/image3.jpeg",
+			"img/data/kampung-jawi/image4.jpeg"
+		]
 	}
 ]
