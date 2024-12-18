@@ -78,6 +78,34 @@ section {
 	margin-top: 12px;
 	margin-inline-end: 12px;
 }
+body.light-mode {
+	--team-text-light: #0c0091; /* Dark blue for light mode */
+	--background-color: #f4f5fe;
+	--surface-color: #ffffff;
+	--default-color: #141414;
+	--nav-color: #0c0091;  /* The default color of the main navmenu links */
+	--nav-hover-color: #1acc8d; /* Applied to main navmenu links when they are hovered over or active */
+	--nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
+	--nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+	--nav-dropdown-color: #444444; /* Used for navigation links of the dropdown items in the navigation menu. */
+	--nav-dropdown-hover-color: #1acc8d; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+	--scrolled-background-color: #ffffff; /* Light background color on scroll */
+  }
+  body.dark-mode {
+	--team-text-light: #0c0091; /* Dark blue for light mode */
+	--background-color: #070E27;
+	--default-color: #ffffff;
+	--heading-color: #ffffff;
+	--surface-color: #0c0091;
+	--contrast-color: #ffffff;
+	--nav-color: #ffffff;  /* The default color of the main navmenu links */
+	--nav-hover-color: #1acc8d; /* Applied to main navmenu links when they are hovered over or active */
+	--nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
+	--nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+	--nav-dropdown-color: #444444; /* Used for navigation links of the dropdown items in the navigation menu. */
+	--nav-dropdown-hover-color: #1acc8d; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+	--scrolled-background-color: #070E27; /* Dark background color on scroll */
+  }
 body {
 	margin: 0;
 	font-family: Nunito, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
