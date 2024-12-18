@@ -75,19 +75,26 @@ function flyToLocation(coords, name) {
 }
 // Tambahkan GeoJSON untuk Semarang Boundary
 fetch('assets/js/semarang_boundary.geojson')
-.then(response => response.json())
-.then(data => {
-    const semarangBoundary = L.geoJSON(data, {
-        style: {
-            color: 'blue',
-            weight: 2,
-            opacity: 0.8,
-            fillOpacity: 0.1
-        }
-    }).addTo(mainMap);
-    mainMap.fitBounds(semarangBoundary.getBounds());
-})
-.catch(error => console.error('Error loading GeoJSON:', error));
+    .then(response => response.json())
+    .then(data => {
+        // Filter hanya untuk fitur yang bukan titik
+        const filteredFeatures = data.features.filter(feature => feature.geometry.type !== 'Point');
+
+        const semarangBoundary = L.geoJSON({
+            type: 'FeatureCollection',
+            features: filteredFeatures
+        }, {
+            style: {
+                color: 'blue',
+                weight: 2,
+                opacity: 0.8,
+                fillOpacity: 0.1
+            }
+        }).addTo(mainMap);
+
+        mainMap.fitBounds(semarangBoundary.getBounds());
+    })
+    .catch(error => console.error('Error loading GeoJSON:', error));
 // Ambil Data dari JSON
 fetch('assets/js/mapdb.json')
     .then(response => response.json())
