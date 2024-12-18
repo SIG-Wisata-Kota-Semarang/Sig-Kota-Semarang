@@ -6,6 +6,7 @@
 		<title>Pemetaan Kota Semarang</title>
 
 		<!-- Fonts -->
+		<link href="assets/img/favicon.png" rel="icon">
 		<link href="https://fonts.googleapis.com" rel="preconnect" />
 		<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
 		<link
@@ -22,51 +23,65 @@
 		<link
 			href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
 			rel="stylesheet" />
-		<style>
-			/* Additional styles for spacing */
+			<style>
 			#content {
 				margin-top: 80px; /* Adjust this value as needed */
 			}
+
+			/* Make navbar adapt to light and dark mode */
+			.header {
+				background-color: var(--navbar-bg-color);
+				box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+			}
+
+			body.light-mode {
+				--navbar-bg-color: #ffffff;
+			}
+
+			body.dark-mode {
+				--navbar-bg-color: #070E27;
+			}
 		</style>
-	</head>
-	<body id="page-top" class="index-page">
-		<header id="header" class="header d-flex align-items-center fixed-top">
-			<div
-				class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-				<a href="index.html" class="logo d-flex align-items-center">
-					<h1 class="sitename">SEMAWIS</h1>
-				</a>
-
-				<nav id="navmenu" class="navmenu">
-					<ul>
-						<li><a href="index.html">Beranda</a></li>
-						<li class="dropdown">
-							<a
-								><span>Mengenal Semarang</span>
-								<i class="bi bi-chevron-down toggle-dropdown"></i
-							></a>
-							<ul>
-								<li><a href="index.html#mapssem">Peta Wisata</a></li>
-								<li><a href="#" class="active">List Wisata</a></li>
-								<li><a href="index.html#gallery">Galeri</a></li>
-							</ul>
-						</li>
-						<li><a href="index.html#team">Tentang Kami</a></li>
-						<li><a href="index.html#contact">Kontak</a></li>
-
-						<!-- Dark Mode Toggle with text change -->
-						<li class="nav-item theme-toggle">
-							<label class="theme-switch">
-								<input type="checkbox" id="theme-toggle" />
-								<span class="slider"></span>
-							</label>
-							<span id="mode-text">Light Mode</span>
-						</li>
-					</ul>
-					<i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-				</nav>
-			</div>
-		</header>
+			</style>
+		</head>
+		<body id="page-top" class="index-page">
+			<header id="header" class="header d-flex align-items-center fixed-top">
+				<div
+					class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+					<a href="index.html" class="logo d-flex align-items-center">
+						<h1 class="sitename">SEMAWIS</h1>
+					</a>
+	
+					<nav id="navmenu" class="navmenu">
+						<ul>
+							<li><a href="index.html">Beranda</a></li>
+							<li class="dropdown">
+								<a
+									><span>Mengenal Semarang</span>
+									<i class="bi bi-chevron-down toggle-dropdown"></i
+								></a>
+								<ul>
+									<li><a href="index.html#mapssem">Peta Wisata</a></li>
+									<li><a href="#" class="active">List Wisata</a></li>
+									<li><a href="index.html#gallery">Galeri</a></li>
+								</ul>
+							</li>
+							<li><a href="index.html#team">Tentang Kami</a></li>
+							<li><a href="index.html#contact">Kontak</a></li>
+	
+							<!-- Dark Mode Toggle with text change -->
+							<li class="nav-item theme-toggle">
+								<label class="theme-switch">
+									<input type="checkbox" id="theme-toggle" />
+									<span class="slider"></span>
+								</label>
+								<span id="mode-text">Light Mode</span>
+							</li>
+						</ul>
+						<i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+					</nav>
+				</div>
+			</header>
 		<div id="content" style="margin: 50px">
 			<div class="card-header py-3">
 				<h4 class="m-0 font-weight-bold text-primary float-left">
@@ -136,6 +151,58 @@
 			src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
 			integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
 			crossorigin=""></script>
+			<script>
+				// Function to detect and set the theme based on user preference or selected theme
+				function setTheme() {
+				  const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+				  const body = document.querySelector('body');
+				  const themeToggleCheckbox = document.getElementById('theme-toggle');
+				  const modeText = document.getElementById('mode-text');
+			  
+				  // Use user's theme preference or the one saved in localStorage
+				  if (localStorage.getItem('theme') === 'dark' || darkModeMediaQuery.matches) {
+					  body.classList.add('dark-mode');
+					  body.classList.remove('light-mode');
+					  themeToggleCheckbox.checked = true;
+					  modeText.textContent = 'Dark Mode';
+				  } else {
+					  body.classList.add('light-mode');
+					  body.classList.remove('dark-mode');
+					  themeToggleCheckbox.checked = false;
+					  modeText.textContent = 'Light Mode';
+				  }
+				}
+			  
+				// Function to toggle between dark mode and light mode
+				function toggleTheme() {
+				  const body = document.querySelector('body');
+				  const themeToggleCheckbox = document.getElementById('theme-toggle');
+				  const modeText = document.getElementById('mode-text');
+			  
+				  if (themeToggleCheckbox.checked) {
+					  // Switch to dark mode
+					  body.classList.add('dark-mode');
+					  body.classList.remove('light-mode');
+					  localStorage.setItem('theme', 'dark');
+					  modeText.textContent = 'Dark Mode';
+				  } else {
+					  // Switch to light mode
+					  body.classList.add('light-mode');
+					  body.classList.remove('dark-mode');
+					  localStorage.setItem('theme', 'light');
+					  modeText.textContent = 'Light Mode';
+				  }
+				}
+			  
+				// Set theme on page load based on preference or previous settings
+				document.addEventListener('DOMContentLoaded', function() {
+				  setTheme();
+			  
+				  // Add event listener to the toggle checkbox
+				  const themeToggleCheckbox = document.getElementById('theme-toggle');
+				  themeToggleCheckbox.addEventListener('change', toggleTheme);
+				});
+			  </script>
 
 		<!-- Main JS File -->
 		<script src="assets/js/main.js"></script>
