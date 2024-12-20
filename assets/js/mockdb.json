@@ -8,10 +8,10 @@
 		"shortdescription": "Museum bersejarah bekas kantor NIS.",
 		"openHours": "08:00 - 20:00 WIB",
 		"images": [
-			"img/data/lawang-sewu/image1.jpeg",
-			"img/data/lawang-sewu/image2.jpeg",
-			"img/data/lawang-sewu/image3.jpeg",
-			"img/data/lawang-sewu/image4.jpeg"
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/lawang-sewu/lawang-sewu-1.jpg?updatedAt=1734428077790",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/lawang-sewu/lawang-sewu-2.jpg?updatedAt=1734428098233",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/lawang-sewu/lawang-sewu-3.jpg?updatedAt=1734428100551",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/lawang-sewu/lawang-sewu-4.jpg?updatedAt=1734428078290"
 		],
 		"address": "Jl. Pemuda No.160, Sekayu, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50132"
 	},
@@ -24,10 +24,10 @@
 		"shortdescription": "Kelenteng Buddha tempat persinggahan Cheng Ho.",
 		"openHours": "08:00 - 20:00 WIB",
 		"images": [
-			"img/data/sam-poo-kong/image1.jpeg",
-			"img/data/sam-poo-kong/image2.jpeg",
-			"img/data/sam-poo-kong/image3.jpeg",
-			"img/data/sam-poo-kong/image4.jpeg"
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/sam-poo-kong/image1.webp?updatedAt=1734427898171",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/sam-poo-kong/image2.jpg?updatedAt=1734427900689",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/sam-poo-kong/image3.jpg?updatedAt=1734427900219",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/sam-poo-kong/image4.jpeg?updatedAt=1734427900738"
 		],
 		"address": "Sam Poo Kong, Bongsari, Semarang Barat, Kota Semarang, Java Tengah 50148"
 	},
@@ -38,12 +38,12 @@
 		"price": "Gratis",
 		"description": "Kota Lama adalah sebuah kawasan bersejarah di Semarang yang pernah menjadi pusat perdagangan pada abad ke-19 dan ke-20. Dikenal juga sebagai 'Little Netherland', Kota Lama memiliki kanal-kanal air yang dulunya mengalir di sekitar kawasan ini, meskipun kini banyak yang tidak terawat. Dengan arsitektur bergaya kolonial Belanda, tempat ini menawarkan suasana yang unik dan menarik bagi pengunjung yang ingin merasakan sejarah dan budaya Semarang. Berjalan-jalan di sekitar Kota Lama akan membawa Anda seolah kembali ke masa lalu.",
 		"shortdescription": "Kawasan bersejarah dengan arsitektur Belanda.",
-		"openHours": "24 hours",
+		"openHours": "24 jam",
 		"images": [
-			"img/data/kota-lama/image1.jpeg",
-			"img/data/kota-lama/image2.jpeg",
-			"img/data/kota-lama/image3.jpeg",
-			"img/data/kota-lama/image4.jpeg"
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/kota-lama/kota-lama-semarang.jpg?updatedAt=1734428195871",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/kota-lama/kota-lama-semarang-2.webp?updatedAt=1734428195081",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/kota-lama/kota-lama-semarang-3.jpg?updatedAt=1734428195573",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/kota-lama/Kota-Lama-Semarang4.jpg?updatedAt=1734428195690"
 		],
 		"address": "2C5C+VRJ, Jl. Simpang Lima, Mugassari, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50249"
 	},
@@ -54,12 +54,12 @@
 		"price": "Gratis",
 		"description": "Simpang Lima adalah persimpangan strategis yang terletak di pusat kota Semarang. Tempat ini merupakan pertemuan dari lima jalan besar yang menyatu, termasuk Jalan Pahlawan, Jalan Pandanaran, Jalan Ahmad Yani, Jalan Gajah Mada, dan Jalan Ahmad Dahlan. Di tengah persimpangan terdapat Lapangan Pancasila, yang sering digunakan untuk berbagai acara publik dan perayaan. Simpang Lima menjadi ikon kota dan tempat berkumpulnya masyarakat, menawarkan suasana yang ramai dan beragam aktivitas.",
 		"shortdescription": "Persimpangan utama dengan lapangan Pancasila.",
-		"openHours": "Open 24 hours",
+		"openHours": "24 jam",
 		"images": [
-			"img/data/simpang-lima/image1.jpeg",
-			"img/data/simpang-lima/image2.jpeg",
-			"img/data/simpang-lima/image3.jpeg",
-			"img/data/simpang-lima/image4.jpeg"
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/simpang-lima/simpang-lima-semarang1.jpg?updatedAt=1734428215697",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/simpang-lima/simpang-lima-semarang2.jpg?updatedAt=1734428215720",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/simpang-lima/simpang-lima-semarang3.jpg?updatedAt=1734428215832",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/simpang-lima/simpang-lima-semarang4.jpg?updatedAt=1734428215867"
 		],
 		"address": "Simpang Lima, Semarang City, Central Java"
 	},
@@ -71,12 +71,12 @@
 		"category": "Agama",
 		"price": "Gratis",
 		"address": "Jl. Gajah Raya, Sambirejo, Kec. Gayamsari, Kota Semarang, Jawa Tengah 50166",
-		"openHours": "24 hours",
+		"openHours": "24 jam",
 		"images": [
-			"img/data/masjid-agung/image1.jpeg",
-			"img/data/masjid-agung/image2.jpeg",
-			"img/data/masjid-agung/image3.jpeg",
-			"img/data/masjid-agung/image4.jpeg"
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/masjid-agung-jateng/masjid-agung-semarang.jpg?updatedAt=1734428262705",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/masjid-agung-jateng/masjid-agung-semarang2.jpg?updatedAt=1734428259830",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/masjid-agung-jateng/masjid-agung-semarang3.jpg?updatedAt=1734428263353",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/masjid-agung-jateng/masjid-agung-semarang4.jpg?updatedAt=1734428254760"
 		]
 	},
 	{
@@ -89,10 +89,10 @@
 		"address": "29WP+4FC, Tawangsari, Semarang City, Central Java 50144",
 		"openHours": "06:00 - 18:00 WIB",
 		"images": [
-			"img/data/marina/image1.jpeg",
-			"img/data/marina/image2.jpeg",
-			"img/data/marina/image3.jpeg",
-			"img/data/marina/image4.jpeg"
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/pantai-marina/pantai-marina1.jpg?updatedAt=1734428286314",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/pantai-marina/pantai-marina2.jpg?updatedAt=1734428286435",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/pantai-marina/pantai-marina3.jpg?updatedAt=1734428286252",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/pantai-marina/pantai-marina4.webp?updatedAt=1734428286408"
 		]
 	},
 	{
@@ -105,10 +105,10 @@
 		"address": "Tugurejo, Tugu, Semarang City, Central Java 50182",
 		"openHours": "24 Jam",
 		"images": [
-			"img/data/tirang/image1.jpeg",
-			"img/data/tirang/image2.jpeg",
-			"img/data/tirang/image3.jpeg",
-			"img/data/tirang/image4.jpeg"
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/pantai-tirang/pantai-tirang1.jpg?updatedAt=1734428306494",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/pantai-tirang/pantai-tirang2.jpg?updatedAt=1734428308850",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/pantai-tirang/pantai-tirang3.jpg?updatedAt=1734428306639",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/pantai-tirang/pantai-tirang4.jpg?updatedAt=1734428306558"
 		]
 	},
 	{
@@ -121,10 +121,10 @@
 		"address": "Jl. Kranggan Dalam Jl. Gg. Warung No.50, Kauman, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50139",
 		"openHours": "06.00 – 22.00 WIB",
 		"images": [
-			"img/data/semawis/image1.jpeg",
-			"img/data/semawis/image2.jpeg",
-			"img/data/semawis/image3.jpeg",
-			"img/data/semawis/image4.jpeg"
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/semawis/Semawis1.webp?updatedAt=1734428365422",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/semawis/semawis2.jpg?updatedAt=1734428365824",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/semawis/semawis3.jpg?updatedAt=1734428365882",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/semawis/semawis4.jpg?updatedAt=1734428366164"
 		]
 	},
 	{
@@ -137,10 +137,10 @@
 		"address": "Jl. Menteri Supeno No.11 A, Mugassari, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50249",
 		"openHours": "24 Jam",
 		"images": [
-			"img/data/tik/image1.jpeg",
-			"img/data/tik/image2.jpeg",
-			"img/data/tik/image3.jpeg",
-			"img/data/tik/image4.jpeg"
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/taman-indonesia-kaya/taman-indonesia-kaya.jpg?updatedAt=1734428394393",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/taman-indonesia-kaya/taman-indonesia-kaya1.jpg?updatedAt=1734428394215",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/taman-indonesia-kaya/taman-indonesia-kaya3.jpg?updatedAt=1734428394369",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/taman-indonesia-kaya/taman-indonesia-kaya4.jpg?updatedAt=1734428394371"
 		]
 	},
 	{
@@ -153,10 +153,10 @@
 		"address": "Jl. Puri Anjasmoro, Tawangsari, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50114",
 		"openHours": "07:00 - 18:00 WIB",
 		"images": [
-			"img/data/maerakaca/image1.jpeg",
-			"img/data/maerakaca/image2.jpeg",
-			"img/data/maerakaca/image3.jpeg",
-			"img/data/maerakaca/image4.jpeg"
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/grand-maerakaca/grand-maerakaca1.jpg?updatedAt=1734428414218",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/grand-maerakaca/grand-maerakaca2.jpg?updatedAt=1734428415325",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/grand-maerakaca/grand-maerakaca3.jpg?updatedAt=1734428415449",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/grand-maerakaca/grand-maerakaca4.jpg?updatedAt=1734428415578"
 		]
 	},
 	{
@@ -169,10 +169,10 @@
 		"address": "Jl. Muntal, Mangunsari, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50227",
 		"openHours": "08.00 – 16.00 WIB",
 		"images": [
-			"img/data/fatimah/image1.jpeg",
-			"img/data/fatimah/image2.jpeg",
-			"img/data/fatimah/image3.jpeg",
-			"img/data/fatimah/image4.jpeg"
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/firdaus-fatimah-zahra/Firdaus-Fatimah-Zahra1.jpg?updatedAt=1734428443035",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/firdaus-fatimah-zahra/firdaus-fatimah-zahra2.jpg?updatedAt=1734428442915",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/firdaus-fatimah-zahra/Firdaus-Fatimah-Zahra3.jpg?updatedAt=1734428443119",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/firdaus-fatimah-zahra/firdaus-fatimah-zahra4.jpg?updatedAt=1734428443151"
 		]
 	},
 	{
@@ -185,10 +185,10 @@
 		"address": "Purwosari, Mijen, Semarang City, Central Java 50217",
 		"openHours": "10.00 – 17.30 WIB (hari kerja), 08.00 – 19.30 WIB (akhir pekan)",
 		"images": [
-			"img/data/nirwana/image1.jpeg",
-			"img/data/nirwana/image2.jpeg",
-			"img/data/nirwana/image3.jpeg",
-			"img/data/nirwana/image4.jpeg"
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/nirwana-stable/Nirwana-Stable1.jpg?updatedAt=1734428462978",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/nirwana-stable/nirwana-stable2.jpg?updatedAt=1734428462828",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/nirwana-stable/nirwana-stable3.jpg?updatedAt=1734428462965",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/nirwana-stable/nirwana-stable4.jpg?updatedAt=1734428463001"
 		]
 	},
 	{
@@ -201,10 +201,10 @@
 		"address": "Jl. Persen Raya, Sekaran, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50229",
 		"openHours": "06.00 – 18.00 WIB",
 		"images": [
-			"img/data/gubug-serut/image1.jpeg",
-			"img/data/gubug-serut/image2.jpeg",
-			"img/data/gubug-serut/image3.jpeg",
-			"img/data/gubug-serut/image4.jpeg"
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/gubug-serut/gubug-serut1.jpg?updatedAt=1734428482148",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/gubug-serut/gubug-serut2.jpg?updatedAt=1734428482130",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/gubug-serut/gubug-serut3.jpg?updatedAt=1734428481887",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/gubug-serut/gubug-serut4.jpg?updatedAt=1734428482125"
 		]
 	},
 	{
@@ -217,10 +217,10 @@
 		"address": "X972+G6P, Jl. Jamalsari Tim. 1, Kedungpane, Kec. Mijen, Kota Semarang, Jawa Tengah 50211",
 		"openHours": "24 Jam",
 		"images": [
-			"img/data/jatibarang/image1.jpeg",
-			"img/data/jatibarang/image2.jpeg",
-			"img/data/jatibarang/image3.jpeg",
-			"img/data/jatibarang/image4.jpeg"
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/waduk-jatibarang/waduk-jatibarang3.jpg?updatedAt=1734428510343",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/waduk-jatibarang/Waduk-Jatibarang1.jpg?updatedAt=1734428510403",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/waduk-jatibarang/waduk_jatibarang4.jpg?updatedAt=1734428510562",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/waduk-jatibarang/waduk-jatibarang2.jpg?updatedAt=1734428510507"
 		]
 	},
 	{
@@ -233,15 +233,15 @@
 		"address": "Jl. Raya Manyaran-Gunungpati No.KM 10, Gunungpati, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50229",
 		"openHours": "08.30 – 22.00 WIB",
 		"images": [
-			"img/data/ngrembel/image1.jpeg",
-			"img/data/ngrembel/image2.jpeg",
-			"img/data/ngrembel/image3.jpeg",
-			"img/data/ngrembel/image4.jpeg"
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/ngrembel-asri/ngrembel-asri1.jpg?updatedAt=1734428538747",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/ngrembel-asri/ngrembel-asri2.jpg?updatedAt=1734428538717",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/ngrembel-asri/ngrembel-asri3.jpg?updatedAt=1734428538886",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/ngrembel-asri/ngrembel-asri4.jpg?updatedAt=1734428538425"
 		]
 	},
 	{
 		"id": 16,
-		"name": "Goa Kreo ((Kreo Cave)",
+		"name": "Goa Kreo",
 		"description": "Goa Kreo adalah goa utama yang memiliki nilai sejarah dan legenda menarik, terkait dengan kisah Sunan Kalijaga. Goa ini menjadi daya tarik utama bagi pengunjung yang ingin menjelajahi keindahan alam di dalam goa. Salah satu pengalaman unik di Goa Kreo adalah interaksi langsung dengan sekumpulan monyet yang hidup di sekitar area goa. Keberadaan monyet ini menambah daya tarik tersendiri bagi para pengunjung dan membuat pengalaman di sini semakin berkesan.",
 		"shortdescription": "Goa bersejarah dengan interaksi monyet.",
 		"category": "Alam",
@@ -249,10 +249,10 @@
 		"address": "Jl. Raya Goa Kreo, Kandri, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50222",
 		"openHours": "08.00 – 17.00 WIB",
 		"images": [
-			"img/data/kreo/image1.jpeg",
-			"img/data/kreo/image2.jpeg",
-			"img/data/kreo/image3.jpeg",
-			"img/data/kreo/image4.jpeg"
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/goa-kreo/Goa-Kreo1.jpg?updatedAt=1734428555558",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/goa-kreo/goa-kreo2.jpg?updatedAt=1734428555591",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/goa-kreo/goa-kreo3.jpg?updatedAt=1734428555370",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/goa-kreo/goa-kreo4.jpg?updatedAt=1734428555905"
 		]
 	},
 	{
@@ -261,14 +261,14 @@
 		"description": "Dusun Semilir adalah destinasi wisata budaya dan ekologi yang menyajikan berbagai pengalaman budaya lokal. Di sini, pengunjung dapat menikmati suasana pedesaan yang tenang sambil belajar tentang budaya dan tradisi masyarakat setempat. Tempat ini juga menawarkan berbagai aktivitas menarik yang berkaitan dengan alam dan budaya, menjadikannya pilihan yang ideal untuk wisata edukasi.",
 		"shortdescription": "Situs wisata budaya dan ekologi.",
 		"category": "Budaya",
-		"price": "IDR 20,000",
+		"price": "Rp40.000",
 		"address": "Jl. Soekarno - Hatta No.49, Ngemple, Bawen, Ngemplak, Kabupaten Semarang",
-		"openHours": "Open daily 9 AM - 5 PM",
+		"openHours": "9.00 - 17.00 WIB",
 		"images": [
-			"img/data/dusun-semilir/image1.jpeg",
-			"img/data/dusun-semilir/image2.jpeg",
-			"img/data/dusun-semilir/image3.jpeg",
-			"img/data/dusun-semilir/image4.jpeg"
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/dusun-semilir/image-1.jpg?updatedAt=1734716595086",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/dusun-semilir/image2.jpg?updatedAt=1734716594048",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/dusun-semilir/image3.jpg?updatedAt=1734716595067",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/dusun-semilir/image4.jpg?updatedAt=1734716594830"
 		]
 	},
 	{
@@ -277,30 +277,30 @@
 		"description": "Umbul Sidomukti adalah area pemandian alami dan tempat rekreasi yang dikelilingi oleh pemandangan alam yang menakjubkan. Tempat ini sangat cocok untuk keluarga dan pengunjung yang mencari ketenangan dan kesegaran. Selain pemandian, Umbul Sidomukti juga menyediakan berbagai kegiatan luar ruangan seperti trekking dan menikmati panorama alam yang indah, menjadikannya tempat yang sempurna untuk berlibur dan bersantai di alam terbuka.",
 		"shortdescription": "Mata air alami dan area rekreasi.",
 		"category": "Alam",
-		"price": "IDR 15,000",
+		"price": "Rp15,000",
 		"address": "Umbul Sidomukti, Manggung, Jimbaran, Bandungan, Kabupaten Semarang",
-		"openHours": "Open daily 7 AM - 6 PM",
+		"openHours": "7.00 - 18.00 WIB",
 		"images": [
-			"img/data/umbul-sidomukti/image1.jpeg",
-			"img/data/umbul-sidomukti/image2.jpeg",
-			"img/data/umbul-sidomukti/image3.jpeg",
-			"img/data/umbul-sidomukti/image4.jpeg"
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/sidomukti/image1.jpeg?updatedAt=1734716860266",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/sidomukti/image2.jpg?updatedAt=1734716860029",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/sidomukti/image3.jpg?updatedAt=1734716859511",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/sidomukti/image4.jpg?updatedAt=1734716860601"
 		]
 	},
 	{
 		"id": 19,
-		"name": "Benowo and Lawe Waterfalls",
+		"name": "Curug Benowo dan Lawe",
 		"description": "Curug Benowo dan Lawe adalah dua air terjun yang menakjubkan, terletak di alam yang masih asri dan alami. Destinasi ini sangat cocok bagi penggemar alam dan petualangan, menawarkan suasana yang tenang dan pemandangan yang spektakuler. Pengunjung dapat menikmati keindahan alam sambil melakukan trekking menuju air terjun, serta merasakan kesegaran air yang jernih. Air terjun ini menjadi tempat yang ideal untuk berfoto dan bersantai di tengah alam.",
 		"shortdescription": "Air terjun indah untuk pecinta alam.",
 		"category": "Alam",
-		"price": "Rp.5000",
+		"price": "Rp5000",
 		"address": "RT.01/RW.06, Hutan, Kalisidi, Ungaran Barat, Semarang Regency",
-		"openHours": "Open daily 8 AM - 5 PM",
+		"openHours": "8.00 - 17.00 WIB",
 		"images": [
-			"img/data/curug-/image1.jpeg",
-			"img/data/curug-/image2.jpeg",
-			"img/data/curug-/image3.jpeg",
-			"img/data/curug-/image4.jpeg"
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/lawe/image1.jpg?updatedAt=1734717108040",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/lawe/image2.jpg?updatedAt=1734717106512",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/lawe/image3.jpg?updatedAt=1734717108044",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/lawe/image4.webp?updatedAt=1734717107449"
 		]
 	},
 	{
@@ -313,10 +313,10 @@
 		"address": "Jl. Kalialang Lama, RT.02/RW.01, Sukorejo, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50221",
 		"openHours": "04.00 – 22.00 WIB",
 		"images": [
-			"img/data/kampung-jawi/image1.jpeg",
-			"img/data/kampung-jawi/image2.jpeg",
-			"img/data/kampung-jawi/image3.jpeg",
-			"img/data/kampung-jawi/image4.jpeg"
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/jawi/image1.jpg?updatedAt=1734717295537",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/jawi/image2.jpeg?updatedAt=1734717295507",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/jawi/image3.jpg?updatedAt=1734717295175",
+			"https://ik.imagekit.io/5mtwtegkx/SIG-wisata-semarang/jawi/image4.jpg?updatedAt=1734717295272"
 		]
 	}
 ]

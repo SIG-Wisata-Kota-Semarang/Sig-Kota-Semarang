@@ -92,16 +92,21 @@ function showDetails(id) {
 	const thumbnail = location.images[0];
 	const dataImages = location.images
 		.slice(1)
-		.map((image) => `<img id="data-images" src="${image}" alt="alt" />`)
+		.map(
+			(image) => `
+			<a href="${image}" target="${image}" data-gallery="images-gallery">
+				<img id="data-images" src="${image}" alt="alt" />
+			</a>`
+		)
 		.join("");
 	detailsContent.innerHTML = `
       <div class="row align-items-center border rounded p-5">
-        <div class="col-md-6">
+        <div class="col-md-8 pr-4">
             <h2><strong>${location.name}</strong></h2>
             <p class="p-1 text-primary bg-success rounded d-inline"><strong>${location.category}</strong></p>
             <p class="mt-2">${location.description}</p>
         </div>
-        <div class="col-md-6 d-flex flex-column">
+        <div class="col-md-4 d-flex flex-column">
           <div class="ms-auto">
             <button class="btn btn-danger mb-3" onclick="hideDetails()">Close</button>
           </div>
@@ -110,7 +115,9 @@ function showDetails(id) {
           <p>Jam Buka: ${location.openHours}</p>
         </div>
         <div class="d-flex justify-content-center mt-4">
+					<a href="${thumbnail}" target="${thumbnail}">
             <img id="data-thumbnail" src="${thumbnail}" alt="${location.name}" class="img-fluid" />
+					</a>
         </div>
         <div class="d-flex flex-wrap justify-content-center mt-4">
           ${dataImages}
