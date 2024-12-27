@@ -40,7 +40,7 @@ function addMarkersFromJSON(data) {
         const marker = L.marker(location.coords).addTo(mainMap);
         
         // Define the route button functionality
-        const routeButton = `<button class="route-button" onclick="getRouteTo(${location.coords[0]}, ${location.coords[1]})">Get Route</button>`;
+        const routeButton = `<button class="route-button" onclick="getRouteTo(${location.coords[0]}, ${location.coords[1]})">Tampilkan Rute</button>`;
 
         marker.bindPopup(`
             <div style="line-height: 1.2; font-size: 14px; margin: 5px;">
@@ -139,12 +139,12 @@ if (navigator.geolocation) {
         const userLng = position.coords.longitude;
 
         userMarker = L.marker([userLat, userLng]).addTo(mainMap)
-            .bindPopup('Your Location')
+            .bindPopup('Lokasi Anda Disini !')
             .openPopup();
 
         mainMap.setView([userLat, userLng], 13);
     }, () => {
-        alert("Could not get your location.");
+        alert("Tidak Dapat Menemukan Lokasi Anda.");
     });
 }
 // Get Route Function
@@ -167,10 +167,9 @@ function getRouteTo(destLat, destLng) {
         routingControl.on('routesfound', function(e) {
             const route = e.routes[0];
             const distanceInKm = (route.summary.totalDistance / 1000).toFixed(2); // Convert to kilometers
-            const popupContent = `<b>Route found!</b><br>
-                                  Distance: ${distanceInKm} km<br>
-                                  <button class="route-button" onclick="openInGoogleMaps(${userMarker.getLatLng().lat}, ${userMarker.getLatLng().lng}, ${destLat}, ${destLng})">Open in Google Maps</button>
-                                  <button class="close-route-button" onclick="closeRoute()">Close</button>`;
+            const popupContent = `<b>Rute Ditemukan!</b><br>
+                                  Jarak Dengan Lokasi Anda: ${distanceInKm} Km<br>
+                                  <button class="route-button" onclick="openInGoogleMaps(${userMarker.getLatLng().lat}, ${userMarker.getLatLng().lng}, ${destLat}, ${destLng})">Buka di Google Maps</button>`;
             const popup = L.popup()
                 .setLatLng(route.coordinates[0])
                 .setContent(popupContent)
@@ -180,7 +179,7 @@ function getRouteTo(destLat, destLng) {
             routingControl.popup = popup;
         });
     } else {
-        alert("User location not available.");
+        alert("Lokasi Pengguna Tidak Ditemukan.");
     }
 }
 

@@ -1953,3 +1953,14 @@ body {
 .route-button:hover {
   background-color: #0056b3; /* Darker shade on hover */
 }
+
+/* Custom Leaflet Control Container Styles */
+.leaflet-control-container {
+    color: black !important; /* Text color */
+}
+
+    /* Change text color for h2 and h3 in controls */
+    .leaflet-control h2,
+    .leaflet-control h3 {
+        color: black !important; /* Text color for h2 and h3 */
+    }
