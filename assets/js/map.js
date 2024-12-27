@@ -40,7 +40,7 @@ function addMarkersFromJSON(data) {
         const marker = L.marker(location.coords).addTo(mainMap);
         
         // Define the route button functionality
-        const routeButton = `<button onclick="getRouteTo(${location.coords[0]}, ${location.coords[1]})">Get Route</button>`;
+        const routeButton = `<button class="route-button" onclick="getRouteTo(${location.coords[0]}, ${location.coords[1]})">Get Route</button>`;
 
         marker.bindPopup(`
             <div style="line-height: 1.2; font-size: 14px; margin: 5px;">
@@ -147,7 +147,6 @@ if (navigator.geolocation) {
         alert("Could not get your location.");
     });
 }
-
 // Get Route Function
 function getRouteTo(destLat, destLng) {
     if (userMarker) {
@@ -164,20 +163,31 @@ function getRouteTo(destLat, destLng) {
             createMarker: function() { return null; } // Prevent default marker creation
         }).addTo(mainMap);
 
-        // Add Close Button to Popup
+        // Add Close Button and Google Maps Button to Popup
         routingControl.on('routesfound', function(e) {
             const route = e.routes[0];
+            const distanceInKm = (route.summary.totalDistance / 1000).toFixed(2); // Convert to kilometers
             const popupContent = `<b>Route found!</b><br>
-                                  Distance: ${route.summary.totalDistance.toFixed(2)} meters<br>
+                                  Distance: ${distanceInKm} km<br>
+                                  <button class="route-button" onclick="openInGoogleMaps(${userMarker.getLatLng().lat}, ${userMarker.getLatLng().lng}, ${destLat}, ${destLng})">Open in Google Maps</button>
                                   <button class="close-route-button" onclick="closeRoute()">Close</button>`;
-            L.popup()
+            const popup = L.popup()
                 .setLatLng(route.coordinates[0])
                 .setContent(popupContent)
                 .openOn(mainMap);
+
+            // Store popup reference for later use
+            routingControl.popup = popup;
         });
     } else {
         alert("User location not available.");
     }
+}
+
+// Function to Open Google Maps
+function openInGoogleMaps(startLat, startLng, destLat, destLng) {
+    const url = `https://www.google.com/maps/dir/?api=1&origin=${startLat},${startLng}&destination=${destLat},${destLng}&travelmode=driving`;
+    window.open(url, '_blank');
 }
 
 // Close Route Function
@@ -186,7 +196,16 @@ function closeRoute() {
         routingControl.remove();
         routingControl = null; // Reset routing control
     }
+    if (routingControl && routingControl.popup) {
+        mainMap.closePopup(routingControl.popup); // Close the popup
+        routingControl.popup = null; // Reset popup reference
+    }
 }
+
+// Click event to remove route and popup when the map is clicked
+mainMap.on('click', function() {
+    closeRoute(); // Call the closeRoute function to remove the route and popup
+});
 
 // Custom Fullscreen Control
 const fullscreenControl = L.control({ position: 'topright' });

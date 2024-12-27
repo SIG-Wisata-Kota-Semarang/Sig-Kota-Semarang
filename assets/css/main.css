@@ -1586,12 +1586,7 @@ section,
   box-shadow: 0 0 5px rgba(40, 167, 69, 0.3);
 }
 /* Style untuk popup teks agar jaraknya berdekatan */
-.leaflet-popup-content {
-  line-height: 1.2; /* Mengurangi jarak antar baris */
-  margin: 7px 7px; /* Margin kecil antara teks */
-  font-size: 14px; /* Ukuran font lebih kecil */
-  transition: all 0.5s ease-in-out;
-}
+
 
 /* Map Container */
 #main-map {
@@ -1929,4 +1924,32 @@ body {
 }
 #team p {
   color: var(--team-text-light); /* Default dark color for both modes */
+}
+
+.close-route-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.close-route-button:hover {
+  background-color: #c82333;
+}
+
+/* Route Button Style */
+.route-button {
+  background-color: #007BFF; /* Route button color */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.route-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
 }
